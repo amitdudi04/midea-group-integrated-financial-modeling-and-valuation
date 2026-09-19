@@ -1,0 +1,14 @@
+{
+  "Information_Cutoff": "2026-08-20",
+  "Input_Authority_SHA256": "a605606df9d174bcf12ed69cf7d475d49f1a99df28898fc632cdffad7df3eab3",
+  "Model_Long_SHA256": "5eafd54840766c723afb204c5b7d2d76f96b27d13067a64da2cc4d76f395b508",
+  "Public_Verifier_Result": "H3B_ATTEMPT005_VERIFY_PASS",
+  "SQLite_SHA256": "13258c89e1f930312ea560aea5d2eed9ef4e57fb19ca6f62a7cc45db932998e0",
+  "Schema": "CURRENT_FORECAST_AUTHORITY_V3_ATTEMPT005",
+  "Status": "CERTIFIED",
+  "Verifier_Evidence_SHA256": "f8809ebbe1925ec897cdb25bb749a487da1956b5159751af27c838eaa916e44b",
+  "Verifier_SHA256": "6c6357c34c33ca1a6fcdc97bbe20c2bdf252d631efd3f2f89631b25066ce964a",
+  "ZIP_Bytes": 177913,
+  "ZIP_Path": "${PROJECT_ROOT}/golden_truth\\forecast_model\\H3_B\\attempt_005\\candidate\\17_release\\MIDEA_H3B_ATTEMPT005_RELEASE_REVISION_R1.zip",
+  "ZIP_SHA256": "a3bafedafdd56c6f6adcbbf616b448678962a5ed8a8ba50a543435a79f7c7eb3"
+}

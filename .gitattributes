@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.xlsx binary
+*.pdf binary
+*.docx binary
+*.sqlite binary
+data/processed/H1_HISTORICAL_STATEMENT_MATRIX.csv binary
+data/sources/valuation/CHINABOND_YIELD_OBSERVATIONS_2026-09-11.json binary

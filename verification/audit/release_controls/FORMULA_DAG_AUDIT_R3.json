@@ -1,0 +1,10 @@
+{
+  "Duplicate_Metric_Contracts": 0,
+  "Metric_Count": 140,
+  "Prior_Period_Rollforwards_Explicit": true,
+  "Same_Period_Cycles": 0,
+  "Schema": "FORMULA_DAG_AUDIT_R3",
+  "Semantic_Contract_Count": 140,
+  "Status": "PASS",
+  "Undefined_Dependencies": []
+}

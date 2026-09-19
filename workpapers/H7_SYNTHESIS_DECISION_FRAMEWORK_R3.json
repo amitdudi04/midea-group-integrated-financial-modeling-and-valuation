@@ -1,0 +1,16 @@
+{
+  "Comps_Central_Below_Market": false,
+  "Comps_Role": "SECONDARY_CROSS_CHECK",
+  "Confidence_Rating": "LOW_TO_MEDIUM",
+  "DCF_Base_Above_Market": true,
+  "DCF_Role": "PRIMARY",
+  "Decision": "DCF_INDICATES_UPSIDE_BUT_LOW_CONFIDENCE",
+  "Method_Dispersion_High": true,
+  "No_Mechanical_Average": true,
+  "Rationale": "DCF is the primary intrinsic method and indicates substantial upside, but an 88%+ terminal contribution and a period-aligned comps range below market make confidence low-to-medium. The label preserves the primary-method signal while stating the confidence constraint.",
+  "Reverse_DCF_Role": "EXPECTATIONS_CHECK",
+  "Risk_Rating": "HIGH",
+  "Schema": "H7_SYNTHESIS_DECISION_FRAMEWORK_R3",
+  "Status": "PASS",
+  "Terminal_Value_Concentration_High": true
+}

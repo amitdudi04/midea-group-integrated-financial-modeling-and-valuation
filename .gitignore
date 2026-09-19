@@ -1,0 +1,16 @@
+_private_archive/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.pytest_cache/
+*.tmp
+*.log
+build/
+dist/
+*.zip

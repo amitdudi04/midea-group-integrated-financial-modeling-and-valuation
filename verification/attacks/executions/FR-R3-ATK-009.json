@@ -1,0 +1,20 @@
+{
+  "Baseline_Output": "{\"Code\":\"PASS\",\"Optimized\":false,\"Package_Verifiers\":[{\"Command\":\"verifier/final_calculation_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"Control_Count\\\":374,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"FINAL_CALCULATION_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"},{\"Command\":\"verifier/end_to_end_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"External_Path_Dependencies\\\":0,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"END_TO_END_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"}],\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"PASS\"}",
+  "Observed_Output": "{\"Code\":\"ZIP_SHA256_MISMATCH\",\"Detail\":null,\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"REJECT\"}",
+  "Result": {
+    "After_SHA": "420570859ca5786516a1f2f87180add9720cfa8ca3f68c4f87e83e4930533931",
+    "Attack_ID": "FR-R3-ATK-009",
+    "Baseline_Result": "PASS",
+    "Before_SHA": "5a2e01952672ea47367c94d537c29517e9e0af29eca63a3faa5c6dac91fb979f",
+    "Closure_Refresh": "RELEASE_MANIFEST_AND_FINAL_AUTHORITY_REFRESHED",
+    "Expected_Code": "ZIP_SHA256_MISMATCH",
+    "False_Accept": false,
+    "Mutation": "H6 peer price",
+    "Observed_Code": "ZIP_SHA256_MISMATCH",
+    "Semantic_Control_Reached": null,
+    "Semantic_Control_Required": false,
+    "Semantic_Observed_Output": "NOT_REQUIRED",
+    "Target_Path": "model/H6_NORMALIZED_PEER_DATA_R3.csv",
+    "Valid_Test": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Asset_Accounts": [
+    "BS_AR",
+    "BS_NOTES_RECEIVABLE",
+    "BS_RECEIVABLES_FINANCING",
+    "BS_INVENTORY",
+    "BS_CONTRACT_ASSETS",
+    "BS_PREPAYMENTS",
+    "BS_OTHER_RECEIVABLES",
+    "BS_OTHER_CURRENT_ASSETS_OPERATING"
+  ],
+  "Delta_Formula": "OPERATING_NWC_t-OPERATING_NWC_t-1",
+  "FCFF_Formula": "NOPAT+D&A-CAPEX-DELTA_OPERATING_NWC-DELTA_FINANCIAL_SERVICES_NET_INVESTMENT",
+  "Formula": "SUM(OPERATING_NWC_ASSETS)-SUM(OPERATING_NWC_LIABILITIES)",
+  "Liability_Accounts": [
+    "BS_AP",
+    "BS_CONTRACT_LIABILITIES",
+    "BS_NOTES_PAYABLE",
+    "BS_EMPLOYEE_COMP",
+    "BS_OTHER_PAYABLES",
+    "BS_OTHER_CURRENT_LIABILITIES_OPERATING",
+    "BS_OTHER_TAXES_PAYABLE"
+  ],
+  "Receivables_Financing_Treatment": "OPERATING_NWC_ASSET_AND_NOT_EV_BRIDGE_ADDITION",
+  "Schema": "FINAL_OPERATING_NWC_FORMULA_R3",
+  "Status": "PASS",
+  "Taxes_Payable_Treatment": "SPLIT: income-tax payable excluded because NOPAT uses accrual tax; other taxes payable included as operating accrual"
+}

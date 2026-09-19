@@ -1,0 +1,15 @@
+Item,Bridge_Item,Accounting_Metric,Sign,Value,Amount,Operating_or_NonOperating,Already_In_EV,Included,Reason,Authority,Double_Count_Test,Status
+Enterprise value,Enterprise Value,FCFF_DCF_EV,1,2054275.66059352,2054275.66059352,OPERATING,YES,BASE,DCF output,H5_DCF,PASS,PASS
+Cash,Excess cash equivalents,CF_CLOSING_CASH_LESS_OPERATING_RESERVE,1,30690.39540974,30690.39540974,NON_OPERATING_EXCESS,NO,YES,Cash equivalents above evidence-derived minimum historical cash/revenue operating reserve,H1_2020_2025_MIN_RATIO_POLICY,PASS,PASS
+Operating cash,Operating cash reserve,CF_CLOSING_CASH,0,37818.27459026,37818.27459026,OPERATING,YES,NO,Minimum historical 2020-2025 cash-equivalents/revenue ratio retained in operations,H1_CERTIFIED_HISTORY,PASS,PASS
+Term deposits,Term deposits,BS_TERM_DEPOSITS,1,11942.61200000,11942.61200000,NON_OPERATING_INVESTMENT,NO,YES,Separately identified liquid treasury investment,H1_CERTIFIED_2025,PASS,PASS
+Restricted cash,Restricted cash,BS_RESTRICTED_CASH,0,4715.54500000,4715.54500000,NOT_EQUITY_AVAILABLE,NO,NO,Unavailable to ordinary equity holders,H1_CERTIFIED_2025,PASS,PASS
+Cash taxonomy other,Other bank-balance taxonomy adjustment,BS_CASH_TAXONOMY_OTHER,0,80.32300000,80.32300000,NOT_EQUITY_AVAILABLE,NO,NO,Derived classification residual lacks evidence of equity availability,P0_CASH_RECONCILIATION,PASS,PASS
+Other financial investments,Non-operating financial investments,TRADING_PLUS_LONG_TERM_PLUS_OTHER_NONCURRENT_FINANCIAL_ASSETS,1,10271.85000000,10271.85000000,NON_OPERATING,NO,YES,Separate investment assets outside operating FCFF,H1_CERTIFIED_2025,PASS,PASS
+Derivative assets,Derivative financial assets,BS_DERIVATIVE_FINANCIAL_ASSETS,0,2223.15900000,2223.15900000,OPERATING_OR_HEDGING,YES,NO,Conservatively retained with operations to avoid double counting hedge economics,GOVERNED_POLICY,PASS,PASS
+Receivables financing,Receivables financing,BS_RECEIVABLES_FINANCING,0,14935.34400000,14935.34400000,OPERATING_WORKING_CAPITAL,YES,NO,Operating working-capital item,GOVERNED_POLICY,PASS,PASS
+Debt,Interest-bearing debt,LATEST_CERTIFIED_ACTUAL_PLUS_PRE_CUTOFF_CB,-1,68515.07687407,68515.07687407,FINANCING,NO,YES,H2 2026Q1 debt plus May 2026 convertible-bond carrying amounts,H2_PLUS_H3AS3_EVENT_SCHEDULE,PASS,PASS
+Current treasury products,Current fixed-income treasury products,BS_CURRENT_PORTION_NONCURRENT_ASSETS_TREASURY,1,155362.52800000,155362.52800000,NON_OPERATING_INVESTMENT,NO,YES,2025 CAS note 9 identifies current other non-current assets as treasury products.,2025_CAS_NOTE_9,PASS,PASS
+Trading financial liability,Fund-investor financial liability,BS_TRADING_FINANCIAL_LIABILITIES,-1,706.43900000,706.43900000,FINANCING,NO,YES,2025 CAS current-liability disclosure; excluded from operating NWC and deducted from EV.,2025_CAS_CURRENT_LIABILITIES,PASS,PASS
+NCI,Non-controlling interests,BS_NCI,-1,13202.91800000,13202.91800000,FINANCING,NO,YES,Enterprise value includes consolidated subsidiaries,H1_CERTIFIED_2025,PASS,PASS
+Equity value,Equity Value,DCF_EQUITY_VALUE,1,2180118.61212919,2180118.61212919,EQUITY,NA,RESULT,EV plus included signed adjustments,H5_DCF,PASS,PASS

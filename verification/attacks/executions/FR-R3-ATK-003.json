@@ -1,0 +1,20 @@
+{
+  "Baseline_Output": "{\"Code\":\"PASS\",\"Optimized\":false,\"Package_Verifiers\":[{\"Command\":\"verifier/final_calculation_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"Control_Count\\\":374,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"FINAL_CALCULATION_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"},{\"Command\":\"verifier/end_to_end_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"External_Path_Dependencies\\\":0,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"END_TO_END_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"}],\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"PASS\"}",
+  "Observed_Output": "{\"Code\":\"ZIP_SHA256_MISMATCH\",\"Detail\":null,\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"REJECT\"}",
+  "Result": {
+    "After_SHA": "2742a27906c52c98b4a8a54fc9d54eb6101852492ddfa8ee7ae7a29c79d4280b",
+    "Attack_ID": "FR-R3-ATK-003",
+    "Baseline_Result": "PASS",
+    "Before_SHA": "ed04b80ce656bc0e144b55f9e78a8729478207e42843fdabc1a34eb6373b84b5",
+    "Closure_Refresh": "RELEASE_MANIFEST_AND_FINAL_AUTHORITY_REFRESHED",
+    "Expected_Code": "ZIP_SHA256_MISMATCH",
+    "False_Accept": false,
+    "Mutation": "WACC beta",
+    "Observed_Code": "ZIP_SHA256_MISMATCH",
+    "Semantic_Control_Reached": null,
+    "Semantic_Control_Required": false,
+    "Semantic_Observed_Output": "NOT_REQUIRED",
+    "Target_Path": "workpapers/BETA_WORKPAPER_R3.json",
+    "Valid_Test": true
+  }
+}

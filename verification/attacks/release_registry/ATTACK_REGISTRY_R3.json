@@ -1,0 +1,271 @@
+{
+  "Architecture": "baseline PASS -> mutate target -> refresh all attacker-controlled manifest/authority descendants -> immutable detached root unchanged -> detached verifier REJECT",
+  "Attack_Count": 44,
+  "Attacks": [
+    {
+      "Attack_ID": "FR-R3-ATK-001",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_MODEL_LONG.csv",
+      "Target": "H3-B forecast value"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-002",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H4_WACC_CALCULATION_R3.json",
+      "Target": "WACC ERP"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-003",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/BETA_WORKPAPER_R3.json",
+      "Target": "WACC beta"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-004",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/COST_OF_DEBT_WORKPAPER_R3.json",
+      "Target": "cost of debt"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-005",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H5_SCENARIO_VALUATION_R3.csv",
+      "Target": "DCF WACC"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-006",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H5_SCENARIO_VALUATION_R3.csv",
+      "Target": "DCF terminal growth"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-007",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H5_EV_TO_EQUITY_BRIDGE.csv",
+      "Target": "EV-to-equity bridge"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-008",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_MODEL_LONG.csv",
+      "Target": "share denominator"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-009",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H6_NORMALIZED_PEER_DATA_R3.csv",
+      "Target": "H6 peer price"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-010",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H6_NORMALIZED_PEER_DATA_R3.csv",
+      "Target": "H6 peer debt"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-011",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H6_PEER_PERIOD_REGISTRY_R3.csv",
+      "Target": "H6 denominator period"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-012",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H6_COMPS_VALUATION_R3.csv",
+      "Target": "H6 selected multiple"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-013",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "verification_inputs/authorities/H7_AUTHORITY_R3.json",
+      "Target": "H7 synthesis"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-014",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "sources/valuation/000333_SZ_5Y_MONTHLY.json",
+      "Target": "market price"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-015",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "sources/FINAL_SOURCE_REGISTRY_R3.csv",
+      "Target": "source registry"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-016",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx",
+      "Target": "Excel DCF value"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-017",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx",
+      "Target": "Excel comps value"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-018",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/MIDEA_GROUP_FINAL_MODEL_R3.sqlite",
+      "Target": "SQLite valuation value"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-019",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "documents/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf",
+      "Target": "PDF fair-value figure"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-020",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "documents/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf",
+      "Target": "investment memo fair value"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-021",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "dashboard/app.py",
+      "Target": "dashboard value"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-022",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "verifier/final_calculation_verifier.py",
+      "Target": "public verifier"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-023",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "verifier/end_to_end_verifier.py",
+      "Target": "end-to-end verifier"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-024",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "FINAL_VALUATION_AUTHORITY_R3.json",
+      "Target": "final valuation authority"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-025",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "RELEASE_MANIFEST_R3.json",
+      "Target": "release manifest"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-026",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H6_NORMALIZED_PEER_DATA_R3.csv",
+      "Target": "H6 peer earnings"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-027",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_MODEL_LONG.csv",
+      "Target": "full operating NWC"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-028",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_PPE_SCHEDULE.csv",
+      "Target": "PPE schedule"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-029",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_DEBT_SCHEDULE.csv",
+      "Target": "debt schedule"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-030",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_MODEL_LONG.csv",
+      "Target": "NCI bridge"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-031",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H3B_CASH_TAXONOMY_RECONCILIATION.csv",
+      "Target": "cash taxonomy"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-032",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/MATERIAL_METRIC_SEMANTICS_R3.csv",
+      "Target": "formula semantics"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-033",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "documents/MIDEA_GROUP_FINAL_VALUATION_REPORT_R3.docx",
+      "Target": "valuation report"
+    },
+    {
+      "Attack_ID": "FR-R3-ATK-034",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "verification_inputs/registries/H1_IDENTITY_DEFINITION_REGISTRY.csv",
+      "Target": "H1 identity definitions"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-001",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "remove notes receivable from NWC"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-002",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "add notes receivable improperly"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-003",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "remove receivables financing"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-004",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "make H3B receivables financing non-operating while H5 remains operating"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-005",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "model/H5_EV_TO_EQUITY_BRIDGE.csv",
+      "Target": "double-count receivables financing in FCFF and EV bridge"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-006",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "invert NWC sign"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-007",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "use current-year NWC instead of delta NWC"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-008",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "omit one operating NWC account"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-009",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "add financing account to NWC"
+    },
+    {
+      "Attack_ID": "FR-R3-NWC-010",
+      "Expected_Code": "ZIP_SHA256_MISMATCH",
+      "Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+      "Target": "change taxes-payable treatment"
+    }
+  ],
+  "Schema": "FINAL_CLOSURE_REHASH_ATTACK_REGISTRY_R3"
+}

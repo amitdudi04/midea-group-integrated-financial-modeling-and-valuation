@@ -1,0 +1,40 @@
+{
+  "Citation_SHA256": "30965f6b501d938ec6323b1340a7a5b7731167a3b22efb61e8034743d779dae0",
+  "Dashboard_SHA256": "bc872aa8ba8391ac535a89c9cc979fdf3fe7e0337bc3526739268c82559fd225",
+  "Economic_Model": "R3_UNCHANGED",
+  "Economic_NWC_Formula_SHA256": "35b0d9ac90cb9de19f7a3f63cc8c353bfb6abf3edd5a26b0b5665e3a3a02745c",
+  "End_To_End_Verifier_SHA256": "97fc7de56ed0dfa34f542e71668527fa1872c225939fa39c7021524c23623d97",
+  "Excel_SHA256": "39b29f99588ecf6eb0fb155da17611a82e7979318380f61c0e067a6ecd454d84",
+  "Final_Results_And_Findings_SHA256": "8f7a0bba0ef2c550afaad5cf21ac60835cde17df542650aae963bf39f7294515",
+  "Financial_Outputs": {
+    "Comps": {
+      "Central": "90.17128260",
+      "High": "99.20698269",
+      "Low": "76.99490197"
+    },
+    "DCF": {
+      "Base": "294.51058279",
+      "Bear": "117.43848226",
+      "Bull": "548.93672533"
+    },
+    "ERP": "0.05072786",
+    "Investment_View": "DCF_INDICATES_UPSIDE_BUT_LOW_CONFIDENCE",
+    "Market_Price": "86.26000000",
+    "WACC": "0.05266623"
+  },
+  "Formula_Registry_SHA256": "973c518408c7893edf8c663266ea789e03802124b2fde6228976f0d5a97c5e02",
+  "H6_Authority_SHA256": "fffe5b377df33eb12472d57f4296609d504578a7a5d3b2002e433960eafd80e4",
+  "H7_Authority_SHA256": "d09f2129aa985fa1031def0067aaa348859e9b01079a8ef7edb56b92217b9934",
+  "Independent_Verifier_SHA256": "528df7bc2e4067a9053eb0d27e9448160644f5682efbb4ebf63d78c79ef85aa7",
+  "Memo_SHA256": "3477163894faa4be4e0becac5248cd11ed3beeb64eef3fc236e78e19de4214fb",
+  "Public_Verifier_SHA256": "187abc0a7734db13de5e739503b0e769ec61503974809660ead01db6ef55e775",
+  "R3_Detached_Root_SHA256": "3dc68e4773569b15252bb234af477432ff342155f3a335cdd1d3736cea0699c3",
+  "R3_Sealed_ZIP_SHA256": "d55259b20d00017ce9479771e1f5e77a6a82f675f58774f0c29844578cc58249",
+  "README_SHA256": "ca7417e3729d866311d99ad56ae56d7522d88944b23a83a28a60a6b287221cb2",
+  "Report_SHA256": "d95f4dc9b54e627ac53c895d66ddf013bd2313ab65c058f66818254d540dc8f7",
+  "Repository_Manifest_R3_1_SHA256": "cade62ffb75cb0b628c6ec08266a2c231e3cb2d0393ac0334294309ec1249a53",
+  "SQLite_SHA256": "1f2baa39860542204a0a8c9a0cf880303d83a04a0126757930ef86bd3e581b3b",
+  "Schema": "REPOSITORY_AUTHORITY_R3_1",
+  "Source_Registry_SHA256": "b7170bb5691cf2c1441da4fc3cfb94152e8987f37d57c0d526d32bbac42b3967",
+  "Status": "PASS"
+}

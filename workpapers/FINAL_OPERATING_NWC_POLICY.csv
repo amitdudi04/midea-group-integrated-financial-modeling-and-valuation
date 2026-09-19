@@ -1,0 +1,26 @@
+Metric_ID,Economic_Classification,FCFF_Sign,Rationale,Status
+BS_AR,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_NOTES_RECEIVABLE,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_RECEIVABLES_FINANCING,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_INVENTORY,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_CONTRACT_ASSETS,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_PREPAYMENTS,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_OTHER_RECEIVABLES,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_OTHER_CURRENT_ASSETS_OPERATING,OPERATING_NWC_ASSET,POSITIVE_BALANCE_NEGATIVE_DELTA,Trade/operating-cycle asset; source-proven operating portion where aggregate taxonomy is mixed.,GOVERNED
+BS_AP,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_CONTRACT_LIABILITIES,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_NOTES_PAYABLE,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_EMPLOYEE_COMP,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_OTHER_PAYABLES,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_OTHER_CURRENT_LIABILITIES_OPERATING,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_OTHER_TAXES_PAYABLE,OPERATING_NWC_LIABILITY,NEGATIVE_BALANCE_POSITIVE_DELTA,Trade/operating accrual; income-tax payable is separately excluded because NOPAT uses accrual tax.,GOVERNED
+BS_LOANS_ADVANCES_CURRENT,FINANCIAL_SERVICES_NET_INVESTMENT,SEPARATE_DELTA_ADJUSTMENT,Finance-company balance required to support included financial-service earnings; kept separate from industrial NWC.,GOVERNED
+BS_CURRENT_PORTION_NONCURRENT_ASSETS_FINANCE,FINANCIAL_SERVICES_NET_INVESTMENT,SEPARATE_DELTA_ADJUSTMENT,Finance-company balance required to support included financial-service earnings; kept separate from industrial NWC.,GOVERNED
+BS_CUSTOMER_DEPOSITS,FINANCIAL_SERVICES_NET_INVESTMENT,SEPARATE_DELTA_ADJUSTMENT,Finance-company balance required to support included financial-service earnings; kept separate from industrial NWC.,GOVERNED
+BS_INCOME_TAX_PAYABLE,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED
+BS_CURRENT_PORTION_NONCURRENT_ASSETS_TREASURY,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED
+BS_OTHER_CURRENT_ASSETS_TREASURY,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED
+BS_OTHER_CURRENT_ASSETS_HEDGE,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED
+BS_DERIVATIVE_LIABILITIES,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED
+BS_OTHER_CURRENT_LIABILITIES_HEDGE,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED
+BS_TRADING_FINANCIAL_LIABILITIES,EXCLUDED_FROM_OPERATING_NWC,NONE,"Tax, treasury, hedge, or financing balance; separately governed where relevant.",GOVERNED

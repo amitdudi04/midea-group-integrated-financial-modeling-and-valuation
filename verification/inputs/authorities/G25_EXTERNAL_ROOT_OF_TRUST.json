@@ -1,0 +1,14 @@
+{
+  "Schema": "H3AS2R2_EXTERNAL_ROOT_OF_TRUST_V1",
+  "Phase": "H3-A-S2R.2",
+  "Status": "CERTIFIED_AND_FROZEN",
+  "Information_Cutoff": "2026-08-20",
+  "Authority_SHA256": "9af83f407abfa98442dddade4c11957a3e6e1af9b41e813422db8cf59fd12ac7",
+  "Authority_First_Verifier_SHA256": "59ba55a27ca2a0ee540e2778e31310ba8d64df639df5972be4ffbfee471d0672",
+  "Certified_G25_ZIP_SHA256": "f7d320c82f43877d1d17e83a83e7ce8f6cce4da6cb2c1598bee3c6ce29fac877",
+  "Detached_Post_Install_Evidence_SHA256": "db73bdff21a2db3b7d94148395d70e8d6ae32c390bd4a0bb8748d8416a579f63",
+  "Financial_Freeze_SHA256": "c13cea5f0293f5e14db5ac661aa6a7a6f28c98aacfa141850fb073583e944b12",
+  "Primary_Source_Authority_Root_SHA256": "cbe2f7a0de4726f292a3b9c1471e46c99b6977d97cc0c8cd37ec7bfd60a97e81",
+  "Created_UTC": "2026-09-08T16:08:19Z",
+  "H3B_Status": "NOT_STARTED"
+}

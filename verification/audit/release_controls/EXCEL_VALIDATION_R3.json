@@ -1,0 +1,24 @@
+{
+  "Broken_External_Link_Count": 0,
+  "Excel_Source_Registry_Row_Count": 131,
+  "Excel_to_SQLite_Mismatches": 0,
+  "Formula_Count": 194,
+  "Formula_Count_By_Material_Sheet": {
+    "01 Executive Summary": 6,
+    "12 FCFF": 39,
+    "14 WACC": 5,
+    "15 DCF Valuation": 39,
+    "16 DCF Sensitivity": 25,
+    "18 EV Equity Bridge": 1,
+    "19 Comparable Cos": 50,
+    "20 Comps Valuation": 18,
+    "21 Synthesis": 7
+  },
+  "Formula_Error_Count": 0,
+  "Hardcoded_Material_Calculation_Output_Count": 0,
+  "Mismatch_Detail": [],
+  "Rendered_Sheets_Reviewed": 8,
+  "Schema": "EXCEL_VALIDATION_R3",
+  "Sheet_Count": 22,
+  "Status": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "Base_2030_FCFF": "63639.58236501",
+  "Base_Forecast_Altered": false,
+  "Base_Terminal_Growth": "0.02500000",
+  "Implied_2030_FCFF": "15882.91161860",
+  "Implied_Terminal_Growth": "-0.10355826",
+  "Implied_Uniform_FCFF_Scale": "0.24957599",
+  "Market_Price_CNY": "86.26000000",
+  "Market_Reference_Date": "2026-09-11",
+  "Result": "MARKET_IMPLIES_LOWER_FCFF_THAN_BASE",
+  "Schema": "H5_REVERSE_DCF_R3",
+  "Target_Enterprise_Value": "512697.87677593",
+  "Target_Equity_Value": "638540.82831160"
+}

@@ -1,0 +1,15 @@
+{
+  "CB_Initial_Carrying_Amount": "15386.85187407",
+  "Date_Basis_Exception": "Equity is valuation-date market value; debt is the latest source-proven amount available before that date.",
+  "Debt_Date": "2026-05-13",
+  "Debt_RMB_Million": "68515.07687407",
+  "Equity_Date": "2026-09-11",
+  "Forecast_Debt_Used_As_Actual": false,
+  "Latest_Certified_Actual_Debt_2026_03_31": "53128.22500000",
+  "Market_Equity_RMB_Million": "638540.82831160",
+  "Method": "LATEST_CERTIFIED_ACTUAL_PLUS_SOURCE_PROVEN_PRE_CUTOFF_CB_EVENT",
+  "Schema": "CAPITAL_STRUCTURE_WORKPAPER_R3",
+  "Share_Price": "86.26000000",
+  "Shares_Million": "7402.51366000",
+  "Status": "PASS"
+}

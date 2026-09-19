@@ -1,0 +1,20 @@
+{
+  "Baseline_Output": "{\"Code\":\"PASS\",\"Optimized\":false,\"Package_Verifiers\":[{\"Command\":\"verifier/final_calculation_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"Control_Count\\\":374,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"FINAL_CALCULATION_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"},{\"Command\":\"verifier/end_to_end_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"External_Path_Dependencies\\\":0,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"END_TO_END_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"}],\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"PASS\"}",
+  "Observed_Output": "{\"Code\":\"ZIP_SHA256_MISMATCH\",\"Detail\":null,\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"REJECT\"}",
+  "Result": {
+    "After_SHA": "e5c4a93c9ae7cf3f15342bb361ce5742fc4046afee445cf28e09552597a8a68d",
+    "Attack_ID": "FR-R3-ATK-004",
+    "Baseline_Result": "PASS",
+    "Before_SHA": "0255dfa0a1670485970ba1710d422c97f85af8b06ef534b285c2aa252c6bc963",
+    "Closure_Refresh": "RELEASE_MANIFEST_AND_FINAL_AUTHORITY_REFRESHED",
+    "Expected_Code": "ZIP_SHA256_MISMATCH",
+    "False_Accept": false,
+    "Mutation": "cost of debt",
+    "Observed_Code": "ZIP_SHA256_MISMATCH",
+    "Semantic_Control_Reached": null,
+    "Semantic_Control_Required": false,
+    "Semantic_Observed_Output": "NOT_REQUIRED",
+    "Target_Path": "workpapers/COST_OF_DEBT_WORKPAPER_R3.json",
+    "Valid_Test": true
+  }
+}

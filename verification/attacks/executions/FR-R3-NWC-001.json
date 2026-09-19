@@ -1,0 +1,20 @@
+{
+  "Baseline_Output": "{\"Code\":\"PASS\",\"Optimized\":false,\"Package_Verifiers\":[{\"Command\":\"verifier/final_calculation_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"Control_Count\\\":374,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"FINAL_CALCULATION_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"},{\"Command\":\"verifier/end_to_end_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"External_Path_Dependencies\\\":0,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"END_TO_END_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"}],\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"PASS\"}",
+  "Observed_Output": "{\"Code\":\"ZIP_SHA256_MISMATCH\",\"Detail\":null,\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"REJECT\"}",
+  "Result": {
+    "After_SHA": "5c8ac611cb0847530466e764dceddd83783576e6c2fba6acaf8168b1d497c474",
+    "Attack_ID": "FR-R3-NWC-001",
+    "Baseline_Result": "PASS",
+    "Before_SHA": "aa907b1fa5816f78ff066d5d4131d6019d8e58639fa532ca1fe3e33e9be92155",
+    "Closure_Refresh": "RELEASE_MANIFEST_AND_FINAL_AUTHORITY_REFRESHED",
+    "Expected_Code": "ZIP_SHA256_MISMATCH",
+    "False_Accept": false,
+    "Mutation": "remove notes receivable from NWC",
+    "Observed_Code": "ZIP_SHA256_MISMATCH",
+    "Semantic_Control_Reached": true,
+    "Semantic_Control_Required": true,
+    "Semantic_Observed_Output": "{\"Control_Count\":374,\"Failure_Count\":1,\"Failures\":[{\"Control\":\"Economic_NWC_Asset_Population\",\"Detail\":\"['BS_AR', 'BS_RECEIVABLES_FINANCING', 'BS_INVENTORY', 'BS_CONTRACT_ASSETS', 'BS_PREPAYMENTS', 'BS_OTHER_RECEIVABLES', 'BS_OTHER_CURRENT_ASSETS_OPERATING']\",\"Result\":\"FAIL\"}],\"Schema\":\"FINAL_CALCULATION_VERIFIER_R3\",\"Status\":\"FAIL\"}",
+    "Target_Path": "workpapers/FINAL_OPERATING_NWC_FORMULA.json",
+    "Valid_Test": true
+  }
+}

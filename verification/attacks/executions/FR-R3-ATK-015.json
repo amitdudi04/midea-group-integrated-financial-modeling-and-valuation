@@ -1,0 +1,20 @@
+{
+  "Baseline_Output": "{\"Code\":\"PASS\",\"Optimized\":false,\"Package_Verifiers\":[{\"Command\":\"verifier/final_calculation_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"Control_Count\\\":374,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"FINAL_CALCULATION_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"},{\"Command\":\"verifier/end_to_end_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"External_Path_Dependencies\\\":0,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"END_TO_END_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"}],\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"PASS\"}",
+  "Observed_Output": "{\"Code\":\"ZIP_SHA256_MISMATCH\",\"Detail\":null,\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"REJECT\"}",
+  "Result": {
+    "After_SHA": "91b90a8f04b00c301e73be0decc0517b1a7cba8785d432b71cf6a34c172e7ec3",
+    "Attack_ID": "FR-R3-ATK-015",
+    "Baseline_Result": "PASS",
+    "Before_SHA": "7b368992c3af7f97a858b985879a6455ac8f341d89448ef8475fbf8de5af84a6",
+    "Closure_Refresh": "RELEASE_MANIFEST_AND_FINAL_AUTHORITY_REFRESHED",
+    "Expected_Code": "ZIP_SHA256_MISMATCH",
+    "False_Accept": false,
+    "Mutation": "source registry",
+    "Observed_Code": "ZIP_SHA256_MISMATCH",
+    "Semantic_Control_Reached": null,
+    "Semantic_Control_Required": false,
+    "Semantic_Observed_Output": "NOT_REQUIRED",
+    "Target_Path": "sources/FINAL_SOURCE_REGISTRY_R3.csv",
+    "Valid_Test": true
+  }
+}

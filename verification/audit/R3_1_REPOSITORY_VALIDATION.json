@@ -1,0 +1,311 @@
+{
+  "Cleanrooms": {
+    "Fresh_Normal": {
+      "File_Mutations": [],
+      "Runs": [
+        {
+          "Args": [
+            "-B",
+            "verification/final_calculation_verifier.py"
+          ],
+          "Output": {
+            "Control_Count": 375,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "FINAL_CALCULATION_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "verification/independent_model_recalculator.py"
+          ],
+          "Output": {
+            "Controls": [
+              "OPERATING_NWC",
+              "DELTA_NWC",
+              "FCFF",
+              "WACC",
+              "DCF",
+              "REVERSE_DCF",
+              "EV_TO_EQUITY",
+              "COMPS",
+              "EPS",
+              "ACCOUNTING_IDENTITIES"
+            ],
+            "Failure_Count": 0,
+            "Failures": [],
+            "Production_Calculation_Functions_Imported": false,
+            "Schema": "INDEPENDENT_MODEL_RECALCULATION_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "verification/end_to_end_verifier.py"
+          ],
+          "Output": {
+            "External_Path_Dependencies": 0,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "END_TO_END_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        }
+      ],
+      "Status": "PASS"
+    },
+    "Fresh_Optimized": {
+      "File_Mutations": [],
+      "Runs": [
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/final_calculation_verifier.py"
+          ],
+          "Output": {
+            "Control_Count": 375,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "FINAL_CALCULATION_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/independent_model_recalculator.py"
+          ],
+          "Output": {
+            "Controls": [
+              "OPERATING_NWC",
+              "DELTA_NWC",
+              "FCFF",
+              "WACC",
+              "DCF",
+              "REVERSE_DCF",
+              "EV_TO_EQUITY",
+              "COMPS",
+              "EPS",
+              "ACCOUNTING_IDENTITIES"
+            ],
+            "Failure_Count": 0,
+            "Failures": [],
+            "Production_Calculation_Functions_Imported": false,
+            "Schema": "INDEPENDENT_MODEL_RECALCULATION_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/end_to_end_verifier.py"
+          ],
+          "Output": {
+            "External_Path_Dependencies": 0,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "END_TO_END_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        }
+      ],
+      "Status": "PASS"
+    },
+    "Normal_to_Optimized": {
+      "File_Mutations": [],
+      "Runs": [
+        {
+          "Args": [
+            "-B",
+            "verification/final_calculation_verifier.py"
+          ],
+          "Output": {
+            "Control_Count": 375,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "FINAL_CALCULATION_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "verification/end_to_end_verifier.py"
+          ],
+          "Output": {
+            "External_Path_Dependencies": 0,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "END_TO_END_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/final_calculation_verifier.py"
+          ],
+          "Output": {
+            "Control_Count": 375,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "FINAL_CALCULATION_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/end_to_end_verifier.py"
+          ],
+          "Output": {
+            "External_Path_Dependencies": 0,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "END_TO_END_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        }
+      ],
+      "Status": "PASS"
+    },
+    "Optimized_to_Normal": {
+      "File_Mutations": [],
+      "Runs": [
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/final_calculation_verifier.py"
+          ],
+          "Output": {
+            "Control_Count": 375,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "FINAL_CALCULATION_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "-O",
+            "verification/end_to_end_verifier.py"
+          ],
+          "Output": {
+            "External_Path_Dependencies": 0,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "END_TO_END_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "verification/final_calculation_verifier.py"
+          ],
+          "Output": {
+            "Control_Count": 375,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "FINAL_CALCULATION_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        },
+        {
+          "Args": [
+            "-B",
+            "verification/end_to_end_verifier.py"
+          ],
+          "Output": {
+            "External_Path_Dependencies": 0,
+            "Failure_Count": 0,
+            "Failures": [],
+            "Schema": "END_TO_END_VERIFIER_R3_1",
+            "Status": "PASS"
+          },
+          "ReturnCode": 0,
+          "Stderr": ""
+        }
+      ],
+      "Status": "PASS"
+    }
+  },
+  "Closure_Attack_Count": 44,
+  "Closure_Attack_False_Accepts": 0,
+  "Closure_Attack_Invalid_Tests": 0,
+  "Closure_Attack_Semantic_Misses": 0,
+  "Dashboard": {
+    "Health": "ok",
+    "Startup_Log_Present": true,
+    "Status": "PASS"
+  },
+  "Documents": {
+    "DOCX_XML_Bytes": 13510,
+    "DOCX_ZIP_Error": null,
+    "PDF_Pages": 2,
+    "Status": "PASS"
+  },
+  "Schema": "R3_1_REPOSITORY_VALIDATION",
+  "Static": {
+    "Absolute_Path_Dependencies": 0,
+    "Absolute_Path_Paths": [],
+    "Broken_Internal_Links": 0,
+    "Broken_Link_Detail": [],
+    "Duplicate_Groups": [],
+    "Duplicate_Public_Files": 0,
+    "Missing_Source_Detail": [],
+    "Missing_Source_References": 0,
+    "Secret_Paths": [],
+    "Secret_Scan_Findings": 0,
+    "Superseded_Paths": [],
+    "Superseded_Public_Files": 0,
+    "Temporary_Paths": [],
+    "Temporary_Public_Files": 0
+  },
+  "Status": "PASS",
+  "Verifier_File_Mutation_Count": 0,
+  "Workbook": {
+    "External_Link_Count": 0,
+    "Formula_Count": 194,
+    "Formula_Error_Count": 0,
+    "Sheet_Count": 22,
+    "Status": "PASS",
+    "ZIP_Error": null
+  }
+}

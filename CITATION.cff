@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as follows."
+title: "Midea Group — Integrated Financial Modeling, Forecasting & Valuation"
+type: software
+authors:
+  - family-names: "Dudi"
+    given-names: "Amit Kumar"
+year: 2026
+version: "R3.1"
+date-released: 2026-09-19
+abstract: "A source-bound integrated three-statement forecast, FCFF valuation, comparable-company analysis, reverse DCF, sensitivity analysis, dashboard, and reproducibility package for Midea Group."
+license: MIT
+repository-code: "https://github.com/amitdudi04/midea-group-integrated-financial-modeling-and-valuation"

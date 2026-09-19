@@ -1,0 +1,108 @@
+{
+  "Files": [
+    {
+      "Bytes": 1571,
+      "Path": "dashboard/app.py",
+      "SHA256": "de3b59545dda79b8ed9934a9c994d4398f336da639b81b1bfbb18a27a5f6188f",
+      "Timestamp_UTC": "2026-09-13T19:29:43.809455+00:00"
+    },
+    {
+      "Bytes": 19,
+      "Path": "dashboard/requirements.txt",
+      "SHA256": "a5be904c3172b9c63b4caca0c878aff7d770b85104ffc249ad5d37ba651b56dc",
+      "Timestamp_UTC": "2026-09-13T15:29:58.064086+00:00"
+    },
+    {
+      "Bytes": 42,
+      "Path": "requirements.txt",
+      "SHA256": "e26dcf7e73d0504a18bce3c99f83a5065c19237ced48808d11ece791c3b5d51f",
+      "Timestamp_UTC": "2026-09-13T19:29:43.985616+00:00"
+    },
+    {
+      "Bytes": 319488,
+      "Path": "model/MIDEA_GROUP_FINAL_MODEL_R3.sqlite",
+      "SHA256": "1f2baa39860542204a0a8c9a0cf880303d83a04a0126757930ef86bd3e581b3b",
+      "Timestamp_UTC": "2026-09-13T15:39:35.561136+00:00"
+    },
+    {
+      "Bytes": 107858,
+      "Path": "excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx",
+      "SHA256": "39b29f99588ecf6eb0fb155da17611a82e7979318380f61c0e067a6ecd454d84",
+      "Timestamp_UTC": "2026-09-13T15:30:09.895826+00:00"
+    },
+    {
+      "Bytes": 1209,
+      "Path": "model/H4_WACC_CALCULATION_R3.json",
+      "SHA256": "2a1ec8c3a507b1e028a1bf212f9bb2534141d2094500e52fb01f67b2bfa425a7",
+      "Timestamp_UTC": "2026-09-13T15:29:57.014214+00:00"
+    },
+    {
+      "Bytes": 3129,
+      "Path": "model/H5_EV_TO_EQUITY_BRIDGE.csv",
+      "SHA256": "eecfd2fcfa80a01cc66e8dc4587a12c0fcfff2ca4ec344f7d66b0c1bcabfd67e",
+      "Timestamp_UTC": "2026-09-13T15:29:57.081012+00:00"
+    },
+    {
+      "Bytes": 514,
+      "Path": "model/H5_REVERSE_DCF_R3.json",
+      "SHA256": "8d4686e05b32f806ad5ed1524b7198d829c348b10e32e719d95f3b93afd17a9c",
+      "Timestamp_UTC": "2026-09-13T15:29:57.083006+00:00"
+    },
+    {
+      "Bytes": 604,
+      "Path": "model/H5_SCENARIO_VALUATION_R3.csv",
+      "SHA256": "e78440b7120552721d171d0b8258a2fc4efaa49640cc5f05bcd063a75e050f37",
+      "Timestamp_UTC": "2026-09-13T15:29:57.079377+00:00"
+    },
+    {
+      "Bytes": 1785,
+      "Path": "model/H5_WACC_G_SENSITIVITY_R3.csv",
+      "SHA256": "305c94a515d16e2da6370d14da314138a147199e05146970469283da4346b7b0",
+      "Timestamp_UTC": "2026-09-13T15:29:57.082009+00:00"
+    },
+    {
+      "Bytes": 690,
+      "Path": "model/H6_COMPS_VALUATION_R3.csv",
+      "SHA256": "3d4b07949cf36b793515f03f92f15f67b55041c0dfd091fad97eb6ec5b4b607e",
+      "Timestamp_UTC": "2026-09-13T15:29:57.103024+00:00"
+    },
+    {
+      "Bytes": 5236,
+      "Path": "model/H6_NORMALIZED_PEER_DATA_R3.csv",
+      "SHA256": "5a2e01952672ea47367c94d537c29517e9e0af29eca63a3faa5c6dac91fb979f",
+      "Timestamp_UTC": "2026-09-13T15:29:57.103024+00:00"
+    },
+    {
+      "Bytes": 1879,
+      "Path": "model/H6_PEER_PERIOD_REGISTRY_R3.csv",
+      "SHA256": "9bc9385fcd8b0255e1624edd1c7d56ce33840af3f7db7f77ac86df677bc06d61",
+      "Timestamp_UTC": "2026-09-13T15:39:35.544549+00:00"
+    },
+    {
+      "Bytes": 710,
+      "Path": "model/H7_VALUATION_DATE_BRIDGE_R3.csv",
+      "SHA256": "66e3838018d773f01872af8c8fc0a5265e54911df8f937bc8d97f25cb7c6a06c",
+      "Timestamp_UTC": "2026-09-13T15:29:57.105026+00:00"
+    },
+    {
+      "Bytes": 3579,
+      "Path": "README.md",
+      "SHA256": "4f4e6ab40586a6e738b2fd4a3d00198e32b48e33c92b4c41d7d2384391262d5f",
+      "Timestamp_UTC": "2026-09-13T19:29:43.977263+00:00"
+    },
+    {
+      "Bytes": 1918,
+      "Path": "release/REPOSITORY_AUTHORITY_R3_1.json",
+      "SHA256": "5425eac09fce200888974d66f3fdfa19ee407e9f46a7d6442526509bbd177cc6",
+      "Timestamp_UTC": "2026-09-13T19:34:51.370260+00:00"
+    },
+    {
+      "Bytes": 28974,
+      "Path": "release/REPOSITORY_MANIFEST_R3_1.json",
+      "SHA256": "ac658f19b7f4c99fc9a59d8709b1d06233ea3c920c59cca451a5a1e1e75a28f7",
+      "Timestamp_UTC": "2026-09-13T19:34:51.299220+00:00"
+    }
+  ],
+  "Schema": "LIVE_DASHBOARD_PRE_RUN_SNAPSHOT_R3_1",
+  "Status": "PASS"
+}

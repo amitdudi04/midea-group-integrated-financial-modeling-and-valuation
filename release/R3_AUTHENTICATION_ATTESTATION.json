@@ -1,0 +1,9 @@
+{
+  "Actual_Detached_Root_SHA256": "3dc68e4773569b15252bb234af477432ff342155f3a335cdd1d3736cea0699c3",
+  "All_Identical": true,
+  "Consolidated_Result_Claim": "3dc68e4773569b15252bb234af477432ff342155f3a335cdd1d3736cea0699c3",
+  "Digest_File_Claim": "3dc68e4773569b15252bb234af477432ff342155f3a335cdd1d3736cea0699c3",
+  "Schema": "R3_AUTHENTICATION_ATTESTATION",
+  "Sealed_R3_ZIP_SHA256": "d55259b20d00017ce9479771e1f5e77a6a82f675f58774f0c29844578cc58249",
+  "Status": "PASS"
+}

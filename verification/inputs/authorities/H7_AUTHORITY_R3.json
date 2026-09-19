@@ -1,0 +1,58 @@
+{
+  "Base_Upside_Downside_Percent": "241.42196011",
+  "Comps": {
+    "Central": "90.17128260",
+    "High": "99.20698269",
+    "Low": "76.99490197"
+  },
+  "Confidence_Rating": "LOW_TO_MEDIUM",
+  "DCF": {
+    "Base": "294.51058279",
+    "Bear": "117.43848226",
+    "Bull": "548.93672533"
+  },
+  "Final_Fair_Value": {
+    "Base": "294.51058279",
+    "Bear": "117.43848226",
+    "Bull": "548.93672533"
+  },
+  "Institutional_Defensible_Range": {
+    "High": "380.99097571",
+    "Low": "76.99490197"
+  },
+  "Investment_View": "DCF_INDICATES_UPSIDE_BUT_LOW_CONFIDENCE",
+  "Key_Catalysts": [
+    "Sustained smart-home mix improvement",
+    "Building-technology growth",
+    "Industrial-technology recovery",
+    "FCFF conversion",
+    "Disciplined capital returns"
+  ],
+  "Key_Risks": [
+    "Terminal-value concentration",
+    "China appliance cycle",
+    "Margin and working-capital execution",
+    "Commodity and FX volatility",
+    "International competition",
+    "Capital-allocation and M&A risk"
+  ],
+  "Key_Thesis_Breakers": [
+    "FCFF persistently below bear case",
+    "Structural EBIT-margin compression",
+    "Working-capital absorption above governed range",
+    "Capital allocation that erodes returns"
+  ],
+  "Market_Price": "86.26000000",
+  "Model_Information_Cutoff": "2026-08-20",
+  "No_Arbitrary_Weighted_Average": true,
+  "Post_Cutoff_Operating_Leakage": 0,
+  "Primary_Method": "DCF",
+  "Reverse_DCF_Conclusion": "MARKET_IMPLIES_LOWER_FCFF_THAN_BASE",
+  "Risk_Rating": "HIGH",
+  "Schema": "H7_VALUATION_SYNTHESIS_AUTHORITY_R3",
+  "Secondary_Method": "PERIOD_ALIGNED_TRADING_COMPARABLES",
+  "Status": "PASS",
+  "Terminal_Value_Percent_EV": "0.88795106",
+  "Time_Horizon": "24_TO_36_MONTHS",
+  "Valuation_Market_Data_Date": "2026-09-11"
+}

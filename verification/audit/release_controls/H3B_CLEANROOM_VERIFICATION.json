@@ -1,0 +1,8 @@
+{
+  "Cleanroom_A_Status": "PASS",
+  "Cleanroom_B_Status": "PASS",
+  "Fixed_Point_Mismatches": 0,
+  "Semantic_Digest_A": "3ec3b5ed1799e66bab335e508081ea53f79b18e5906e0f814a7b666786e77dff",
+  "Semantic_Digest_B": "3ec3b5ed1799e66bab335e508081ea53f79b18e5906e0f814a7b666786e77dff",
+  "Status": "PASS"
+}

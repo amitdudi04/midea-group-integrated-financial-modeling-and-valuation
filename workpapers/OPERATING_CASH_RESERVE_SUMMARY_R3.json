@@ -1,0 +1,10 @@
+{
+  "2025_Cash_Equivalents": "68508.67000000",
+  "2025_Revenue": "456451.73100000",
+  "Excess_Cash": "30690.39340891",
+  "Operating_Cash_Reserve": "37818.27659109",
+  "Schema": "OPERATING_CASH_RESERVE_SUMMARY_R3",
+  "Selected_Method": "MINIMUM_2020_2025_CASH_EQUIVALENTS_TO_REVENUE_RATIO",
+  "Selected_Minimum_Ratio": "0.08285274",
+  "Status": "PASS"
+}

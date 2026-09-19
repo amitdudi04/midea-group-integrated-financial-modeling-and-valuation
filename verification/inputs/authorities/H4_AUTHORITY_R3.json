@@ -1,0 +1,12 @@
+{
+  "Beta_Workpaper_SHA256": "ed04b80ce656bc0e144b55f9e78a8729478207e42843fdabc1a34eb6373b84b5",
+  "Calculation_SHA256": "2a1ec8c3a507b1e028a1bf212f9bb2534141d2094500e52fb01f67b2bfa425a7",
+  "Capital_Structure_Workpaper_SHA256": "6b23a4692bb513a2f3f81a43f0f30b521eb2b223a9e856da7e8dd51132ffc0ad",
+  "Cost_of_Debt_Workpaper_SHA256": "0255dfa0a1670485970ba1710d422c97f85af8b06ef534b285c2aa252c6bc963",
+  "ERP_Workpaper_SHA256": "8ff3f300e62063f1e0474b3e12fa532a12ba9616c47e183d1267e2d184443e49",
+  "Schema": "H4_AUTHORITY_FINAL_RELEASE_R3",
+  "Status": "CERTIFIED",
+  "WACC": "0.05266623",
+  "WACC_High": "0.07026179",
+  "WACC_Low": "0.05077553"
+}

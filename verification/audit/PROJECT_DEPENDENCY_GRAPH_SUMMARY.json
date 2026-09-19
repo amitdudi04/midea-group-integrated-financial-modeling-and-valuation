@@ -1,0 +1,16 @@
+{
+  "Edge_Count": 1320808,
+  "Full_Evidence": "PRIVATE_AUDIT_ARCHIVE/governance/PROJECT_DEPENDENCY_GRAPH.json",
+  "Inventory_File_Count": 21947,
+  "Reference_Flag_Counts": {
+    "Authority": 5328,
+    "Code": 11855,
+    "Dashboard": 0,
+    "Excel": 231,
+    "Manifest": 20206,
+    "Report": 2097,
+    "Source_Registry": 356,
+    "Verifier": 33
+  },
+  "Schema": "PROJECT_DEPENDENCY_GRAPH_R3_1"
+}

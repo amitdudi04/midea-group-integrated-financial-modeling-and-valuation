@@ -1,0 +1,12 @@
+{
+  "Accounting_Effective_Interest_Rate_Used": false,
+  "Credit_Rationale": "Midea issuer rating AAAspc stable supports an AAA market curve proxy.",
+  "Instrument_or_Curve": "ChinaBond AAA CP and Note Yield Curve",
+  "Method": "VALUATION_DATE_AAA_5Y_MARKET_BORROWING_CURVE_PROXY",
+  "Observation_Date": "2026-09-11",
+  "Schema": "COST_OF_DEBT_WORKPAPER_R3",
+  "Selected_Rate": "0.01729200",
+  "Source_SHA256": "6b0c3c24ea60d528acea587116bd583c77263f8a709d9abbeaae8b9a85fff520",
+  "Status": "PASS",
+  "Tenor": "5Y"
+}

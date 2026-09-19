@@ -1,0 +1,26 @@
+{
+  "Dashboard_Requirements": [
+    "streamlit",
+    "pandas"
+  ],
+  "Packages": {
+    "numpy": "2.3.5",
+    "openpyxl": "3.1.5",
+    "pandas": "3.0.1",
+    "plotly": "NOT_INSTALLED_NOT_REQUIRED",
+    "streamlit": "1.63.0"
+  },
+  "Platform": "Windows-11-10.0.26200-SP0",
+  "Python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "Python_Executable": "PRIVATE_VALIDATION_ENVIRONMENT",
+  "Root_Requirements": [
+    "pandas>=2.0",
+    "openpyxl>=3.1",
+    "streamlit>=1.30"
+  ],
+  "SQLite_Support": "PASS",
+  "SQLite_Version": "3.53.1",
+  "Schema": "LIVE_DASHBOARD_ENVIRONMENT_R3_1",
+  "Status": "PASS",
+  "Unnecessary_Dependencies_Installed_For_Audit": 0
+}

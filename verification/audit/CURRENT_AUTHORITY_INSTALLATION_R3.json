@@ -1,0 +1,7 @@
+{
+  "Status": "PASS",
+  "Archived_R2_Wrappers": 5,
+  "Current_Release": "FINAL_RELEASE_REVISION_R3",
+  "R3_ZIP_SHA256": "d55259b20d00017ce9479771e1f5e77a6a82f675f58774f0c29844578cc58249",
+  "Detached_Root_SHA256": "3dc68e4773569b15252bb234af477432ff342155f3a335cdd1d3736cea0699c3"
+}

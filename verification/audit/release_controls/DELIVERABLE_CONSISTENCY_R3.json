@@ -1,0 +1,9 @@
+{
+  "Cash_Taxonomy_Wording": "BS cash = CF cash equivalents + restricted cash + term deposits + other taxonomy residual",
+  "Dashboard_to_SQLite_Mismatches": 0,
+  "Excel_to_SQLite_Mismatches": 0,
+  "Memo_to_SQLite_Mismatches": 0,
+  "Report_to_SQLite_Mismatches": 0,
+  "Schema": "DELIVERABLE_CONSISTENCY_R3",
+  "Status": "PASS"
+}

@@ -1,0 +1,24 @@
+{
+  "End_To_End_Verifier_SHA256": "fe206ba2f28ecd8b73b6cb856c3c6eeb28d56594bf0efe797d158059544497c3",
+  "Final_Post_Package_Result": {
+    "Internal_Calculation": "PASS",
+    "Internal_End_To_End": "PASS",
+    "Schema": "FINAL_POST_PACKAGE_RESULT_R3",
+    "Status": "PASS",
+    "ZIP_Bytes": 55182932,
+    "ZIP_CRC": "fd5ae138",
+    "ZIP_Member_Count": 121,
+    "ZIP_SHA256": "d55259b20d00017ce9479771e1f5e77a6a82f675f58774f0c29844578cc58249"
+  },
+  "Final_Post_Package_Result_SHA256": "e7977b44a21be8f0d316bda7057666e32fd33eee7abd4f6d4ba82fe9f710e26b",
+  "Final_Valuation_Authority_R3_SHA256": "2972d606eba5ae9715e98adc9cdc2c91d66d392c04d49b2e04758f1ce70a49c4",
+  "Independent_Verifier_SHA256": "e1706dfc6437712d472d81ce125439584e237ca9a98ca9abe586c81f2603cd45",
+  "Public_Verifier_SHA256": "590784e398aed90eab412b5fdbe7f795548fa350da8c8a15c0296294a79d8390",
+  "R3_CRC": "fd5ae138",
+  "R3_ZIP_Bytes": 55182932,
+  "R3_ZIP_Member_Count": 121,
+  "R3_ZIP_SHA256": "d55259b20d00017ce9479771e1f5e77a6a82f675f58774f0c29844578cc58249",
+  "Release_Manifest_R3_SHA256": "9823c6fb89444e25210a5957b0d374d96e81fca7e9376274bda3fe676d5fee0c",
+  "Schema": "FINAL_RELEASE_EXTERNAL_ROOT_R3",
+  "Status": "IMMUTABLE_DETACHED_ROOT"
+}

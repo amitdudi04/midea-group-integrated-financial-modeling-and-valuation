@@ -1,0 +1,22 @@
+{
+  "Access_Date": "2026-09-13",
+  "Observation_Date": "2026-09-11",
+  "Observations": [
+    {
+      "Curve": "China Government Bond Yield Curve",
+      "Tenor": "10Y",
+      "Use": "RMB_RISK_FREE_RATE",
+      "Yield": "0.01689900"
+    },
+    {
+      "Curve": "ChinaBond AAA CP and Note Yield Curve",
+      "Tenor": "5Y",
+      "Use": "MARGINAL_COST_OF_DEBT_PROXY",
+      "Yield": "0.01729200"
+    }
+  ],
+  "Original_URL": "https://yield.chinabond.com.cn/cbweb-pbc-web/pbc/more?locale=en_US",
+  "Provenance": "Frozen from certified H4 source registry and source-proven valuation-date observations; accounting effective interest rates are not used.",
+  "Publisher": "China Central Depository & Clearing Co., Ltd. / ChinaBond",
+  "Schema": "PINNED_CHINABOND_YIELD_OBSERVATIONS_V1"
+}

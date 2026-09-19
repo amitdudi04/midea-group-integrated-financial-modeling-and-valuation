@@ -1,0 +1,21 @@
+{
+  "Beta_95pct_CI_High": "1.16956421",
+  "Beta_95pct_CI_Low": "0.40140433",
+  "Capital_Structure_Debt_Equity": "0.10729945",
+  "Formula": "cov(company_returns,index_returns)/var(index_returns); unlever and relever at selected market capital structure",
+  "Frequency": "MONTHLY",
+  "Index_Price_Series_SHA256": "760941cef12327da63789fcf45bda33e58dc2adc1558235e88d886c318091d6b",
+  "Market_Index": "000001.SS Shanghai Composite",
+  "OLS_Beta_Standard_Error": "0.19595915",
+  "Observation_Window": "2021-09 to 2026-09",
+  "Paired_Return_Count": 60,
+  "Raw_Beta": "0.78548427",
+  "Relevered_Beta": "0.78548427",
+  "Return_Method": "ADJUSTED_CLOSE_SIMPLE_RETURN",
+  "Schema": "BETA_WORKPAPER_R3",
+  "Status": "PASS",
+  "Stock_Price_Series_SHA256": "b7104db79a5d463319a66012725785bb5d6c289ca106aa9ef4d5744393bbe867",
+  "Tax_Rate": "0.15256553",
+  "Ticker": "000333.SZ",
+  "Unlevered_Beta": "0.72001394"
+}

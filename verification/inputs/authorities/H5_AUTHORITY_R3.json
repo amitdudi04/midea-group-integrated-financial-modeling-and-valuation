@@ -1,0 +1,9 @@
+{
+  "EV_Equity_Bridge_SHA256": "eecfd2fcfa80a01cc66e8dc4587a12c0fcfff2ca4ec344f7d66b0c1bcabfd67e",
+  "H4_Authority_SHA256": "9fd14895dcaca3f8bc8b2aa27bb9ab33b67d3f2ceec0c51fa82dd85fb64c5e53",
+  "Reverse_DCF_SHA256": "8d4686e05b32f806ad5ed1524b7198d829c348b10e32e719d95f3b93afd17a9c",
+  "Scenario_SHA256": "e78440b7120552721d171d0b8258a2fc4efaa49640cc5f05bcd063a75e050f37",
+  "Schema": "H5_AUTHORITY_FINAL_RELEASE_R3",
+  "Sensitivity_SHA256": "305c94a515d16e2da6370d14da314138a147199e05146970469283da4346b7b0",
+  "Status": "CERTIFIED"
+}

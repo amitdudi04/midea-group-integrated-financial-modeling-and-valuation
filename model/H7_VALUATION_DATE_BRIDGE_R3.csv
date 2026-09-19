@@ -1,0 +1,6 @@
+Data_Item,Model_or_Market,Observation_Date,Publication_Date,Value,Source,Allowed_Use,Forecast_Impact,Status
+H3-B operating forecast,MODEL,2026-08-20,2026-08-20,H3B Attempt005,H3B_CURRENT_FORECAST_AUTHORITY,Operating forecast,GOVERNED_RELEASE_ONLY,PASS
+Midea share price,MARKET,2026-09-11,2026-09-11,86.26 CNY,Pinned 000333.SZ payload,Valuation only,NONE,PASS
+RMB risk-free rate,MARKET,2026-09-11,2026-09-11,0.01689900,Pinned ChinaBond observation,WACC only,NONE,PASS
+China ERP,MARKET,2026-06-30,2026-07-01,0.05072786,Damodaran July 1 2026 workbook,WACC only,NONE,PASS
+Peer market/fundamental data,MARKET,2026-09-11,2026-09-11,9 peers,Pinned provider payloads,Period-aligned comparable valuation only,NONE,PASS

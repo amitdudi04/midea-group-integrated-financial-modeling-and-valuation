@@ -1,0 +1,66 @@
+{
+  "Files": [
+    {
+      "Bytes": 2369,
+      "Path": "verification/inputs/authorities/FORECAST_DRIVER_AUTHORITY.json",
+      "SHA256": "1d9eb03a078c1ddca4fa02ed1608c63242603482028ccbfdf53c95a1362408fb"
+    },
+    {
+      "Bytes": 929,
+      "Path": "verification/inputs/authorities/FORECAST_DRIVER_EXTERNAL_ROOT_R1.json",
+      "SHA256": "23e993e0ccd8b68dfa6791f3e66868320cbecff9788be896287d57e58f753124"
+    },
+    {
+      "Bytes": 2386,
+      "Path": "verification/inputs/authorities/G25_CURRENT_MECHANICS_AUTHORITY.json",
+      "SHA256": "61455fae1d24d160293c84183cda03fefc6a99bc4c0f9e94b06c2c5121419fc3"
+    },
+    {
+      "Bytes": 834,
+      "Path": "verification/inputs/authorities/G25_EXTERNAL_ROOT_OF_TRUST.json",
+      "SHA256": "4bf6d68e3f14017808fed77697dd51e2dddee0a40f505252031b2ad9904a4fc1"
+    },
+    {
+      "Bytes": 1843,
+      "Path": "verification/inputs/authorities/H1_CURRENT_RELEASE_AUTHORITY.json",
+      "SHA256": "ee39c1e4e9628f90041fad469e52c47d979ef2817b8d2f7a8a61e1563662930c"
+    },
+    {
+      "Bytes": 2622,
+      "Path": "verification/inputs/authorities/H2_CURRENT_RELEASE_AUTHORITY.json",
+      "SHA256": "9dcb14330e26e8e2dc34cba69fd1a949ba5703aac091bee6a0723877212d668e"
+    },
+    {
+      "Bytes": 1794,
+      "Path": "verification/inputs/authorities/H3A_CURRENT_RELEASE_AUTHORITY.json",
+      "SHA256": "2ec46e25bf35e09bd90de6fce358ce30022b8f4d3a02ade8be91ec77a92306de"
+    },
+    {
+      "Bytes": 898,
+      "Path": "verification/inputs/authorities/H3B_CURRENT_FORECAST_AUTHORITY.json",
+      "SHA256": "2fd41c7439c4896647043bc6b47eb60be42ee112893b8e7d32b9a0c557e73d81"
+    },
+    {
+      "Bytes": 646,
+      "Path": "verification/inputs/authorities/H4_AUTHORITY_R3.json",
+      "SHA256": "deaf676b78338a2660d0f77abd35be39c5e4eadfa1f9195eee8f2f8a1033f1c4"
+    },
+    {
+      "Bytes": 536,
+      "Path": "verification/inputs/authorities/H5_AUTHORITY_R3.json",
+      "SHA256": "fbe1d86cd4ad5b8a8c7fa82703f1cdd5221a98b030761bb70bb7779382e28472"
+    },
+    {
+      "Bytes": 1043,
+      "Path": "verification/inputs/authorities/H6_AUTHORITY_R3.json",
+      "SHA256": "fffe5b377df33eb12472d57f4296609d504578a7a5d3b2002e433960eafd80e4"
+    },
+    {
+      "Bytes": 1749,
+      "Path": "verification/inputs/authorities/H7_AUTHORITY_R3.json",
+      "SHA256": "d09f2129aa985fa1031def0067aaa348859e9b01079a8ef7edb56b92217b9934"
+    }
+  ],
+  "Note": "Public path-parameterized snapshots; original sealed R3 bytes remain in the private reproduction archive and are authenticated by the detached root.",
+  "Schema": "AUTHORITY_SNAPSHOT_REGISTRY_R3_1_PUBLIC"
+}

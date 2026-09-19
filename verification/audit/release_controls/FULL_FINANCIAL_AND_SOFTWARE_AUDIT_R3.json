@@ -1,0 +1,14 @@
+{
+  "Attempt004_Defect_Status": "REPRODUCED_AND_REPAIRED",
+  "Attempt005_Economic_NWC_FCFF_Failures": 0,
+  "Attempt005_Status": "CERTIFIED",
+  "Balancing_Plugs": 0,
+  "Formula_Semantic_Coverage_Missing": 0,
+  "Historical_Identity_Failures": 0,
+  "Known_Repairable_Material_Errors": 0,
+  "Material_Contract_Count": 140,
+  "Post_Cutoff_Operating_Leakage": 0,
+  "Schema": "FULL_FINANCIAL_AND_SOFTWARE_AUDIT_R3",
+  "Status": "PASS",
+  "Valuation_Leakage_Uses": 0
+}

@@ -1,0 +1,4 @@
+Source_Segment,Source_Value,Forecast_Segment,Mapped_Value,Mapping_Authority,Mapping_Type,Unmapped_Value,Explanation
+Building Technology,10800.00000000,BUILDING_TECH,10800.00000000,H2_Q1_DISCLOSURE_AND_H3AS3_TAXONOMY,DIRECT_SUPPLEMENTAL_INDICATOR,0.00000000,Supplemental indicator; does not claim group revenue reconciliation.
+Robotics & Automation,8200.00000000,SUPPLEMENTAL_ROBOTICS_AUTOMATION,8200.00000000,H2_Q1_DISCLOSURE_AND_H3AS3_TAXONOMY,INCOMPARABLE_TO_CONTROLLING_ANNUAL_TAXONOMY,0.00000000,Preserved as a separate supplemental disclosure dimension; not assigned to SMART_HOME or OTHER.
+Industrial Technology,6800.00000000,INDUSTRIAL_TECH,6800.00000000,H2_Q1_DISCLOSURE_AND_H3AS3_TAXONOMY,DIRECT_SUPPLEMENTAL_INDICATOR,0.00000000,Supplemental indicator; does not claim group revenue reconciliation.

@@ -1,0 +1,30 @@
+{
+  "Comps_Range": {
+    "Central": "90.17128260",
+    "High": "99.20698269",
+    "Low": "76.99490197"
+  },
+  "Core_Peer_Count": 3,
+  "Implied_Values_Per_Share": {
+    "EV/EBIT": "97.30368050",
+    "EV/Revenue": "83.03888471",
+    "P/B": "58.86295375",
+    "P/E": "104.91688929"
+  },
+  "Method": "Median eligible-peer source-native TTM multiples applied to compatible Midea LTM metrics; P/B uses latest point-in-time book equity; EBITDA excluded from implied valuation.",
+  "Peer_Midea_Period_Basis_Mismatches": 0,
+  "Period_Basis": "PEER_TTM_TO_LATEST_QUARTER_APPLIED_TO_MIDEA_LTM_2026_03_31; PB_POINT_IN_TIME",
+  "Schema": "H6_COMPARABLE_COMPANY_VALUATION_AUTHORITY_R3",
+  "Secondary_Peer_Count": 3,
+  "Selected_EV_EBITDA_Use": "REFERENCE_ONLY_MIDEA_TTM_DENOMINATOR_UNAVAILABLE",
+  "Selected_Multiples": {
+    "EV_EBIT": "11.23486794",
+    "EV_EBITDA": "7.40268367",
+    "EV_Revenue": "1.06339131",
+    "PB": "1.87567527",
+    "PE": "17.57213857"
+  },
+  "Status": "PASS",
+  "Unresolved_Material_Items": 0,
+  "Valuation_Date": "2026-09-11"
+}

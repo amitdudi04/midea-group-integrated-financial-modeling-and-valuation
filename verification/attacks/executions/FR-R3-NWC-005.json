@@ -1,0 +1,20 @@
+{
+  "Baseline_Output": "{\"Code\":\"PASS\",\"Optimized\":false,\"Package_Verifiers\":[{\"Command\":\"verifier/final_calculation_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"Control_Count\\\":374,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"FINAL_CALCULATION_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"},{\"Command\":\"verifier/end_to_end_verifier.py\",\"ReturnCode\":0,\"Stderr\":\"\",\"Stdout\":\"{\\\"External_Path_Dependencies\\\":0,\\\"Failure_Count\\\":0,\\\"Failures\\\":[],\\\"Schema\\\":\\\"END_TO_END_VERIFIER_R3\\\",\\\"Status\\\":\\\"PASS\\\"}\"}],\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"PASS\"}",
+  "Observed_Output": "{\"Code\":\"ZIP_SHA256_MISMATCH\",\"Detail\":null,\"Schema\":\"DETACHED_FINAL_RELEASE_VERIFIER_R3\",\"Status\":\"REJECT\"}",
+  "Result": {
+    "After_SHA": "21e561b3f225b41ced34934448468d922499199156cef752298430b7f1b5de78",
+    "Attack_ID": "FR-R3-NWC-005",
+    "Baseline_Result": "PASS",
+    "Before_SHA": "eecfd2fcfa80a01cc66e8dc4587a12c0fcfff2ca4ec344f7d66b0c1bcabfd67e",
+    "Closure_Refresh": "RELEASE_MANIFEST_AND_FINAL_AUTHORITY_REFRESHED",
+    "Expected_Code": "ZIP_SHA256_MISMATCH",
+    "False_Accept": false,
+    "Mutation": "double-count receivables financing in FCFF and EV bridge",
+    "Observed_Code": "ZIP_SHA256_MISMATCH",
+    "Semantic_Control_Reached": true,
+    "Semantic_Control_Required": true,
+    "Semantic_Observed_Output": "{\"Control_Count\":374,\"Failure_Count\":9,\"Failures\":[{\"Control\":\"DCF_BEAR\",\"Detail\":\"119.45608650688508445853217566111044862383894602831\",\"Result\":\"FAIL\"},{\"Control\":\"DCF_BASE\",\"Detail\":\"296.52818717381380376658197277198098874335166768865\",\"Result\":\"FAIL\"},{\"Control\":\"DCF_BULL\",\"Detail\":\"550.95432985040847152224889295711187045945585079862\",\"Result\":\"FAIL\"},{\"Control\":\"Receivables_Financing_Not_Double_Counted\",\"Detail\":\"\",\"Result\":\"FAIL\"},{\"Control\":\"H6_Implied_EV/Revenue\",\"Detail\":\"85.056489092622645697353566247927734320452439394756\",\"Result\":\"FAIL\"},{\"Control\":\"H6_Implied_EV/EBIT\",\"Detail\":\"99.321284879647559475087817669761652287177272159198\",\"Result\":\"FAIL\"},{\"Control\":\"H6_Range_Low\",\"Detail\":\"\",\"Result\":\"FAIL\"},{\"Control\":\"H6_Range_Central\",\"Detail\":\"\",\"Result\":\"FAIL\"},{\"Control\":\"H6_Range_High\",\"Detail\":\"\",\"Result\":\"FAIL\"}],\"Schema\":\"FINAL_CALCULATION_VERIFIER_R3\",\"Status\":\"FAIL\"}",
+    "Target_Path": "model/H5_EV_TO_EQUITY_BRIDGE.csv",
+    "Valid_Test": true
+  }
+}

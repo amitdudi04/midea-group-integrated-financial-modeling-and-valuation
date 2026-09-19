@@ -1,0 +1,17 @@
+{
+  "Archived_Source_SHA256": "8d7237c432bca23cd680f149395aa518a465d0b77bec1fdf788edc7a1748c60a",
+  "CDS_Total_ERP_Not_Selected": "0.04806253255240987",
+  "China_Rating": "A1",
+  "Country_Risk_Premium": "0.008727858397633674",
+  "Dataset": "ctrypremJuly26.xlsx",
+  "Dataset_Observation_Date": "2026-06-30",
+  "Mature_Market_ERP": "0.042000000000000000",
+  "Method": "RATING_BASED_TOTAL_ERP",
+  "Publication_Date": "2026-07-01",
+  "Publisher": "Aswath Damodaran / NYU Stern",
+  "Rating_Based_Default_Spread": "0.005614592162023261",
+  "Schema": "ERP_WORKPAPER_R3",
+  "Selection_Rationale": "The certified WACC methodology uses rating-based country ERP; July 1 is the latest official update available before the valuation date.",
+  "Status": "PASS",
+  "Total_China_ERP": "0.05072785839763368"
+}

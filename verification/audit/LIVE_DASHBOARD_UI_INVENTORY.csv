@@ -1,0 +1,9 @@
+Page_or_Section,Control,Control_Type,Baseline_Value,Alternative_Test_Value,Expected_Behavior,Observed_Behavior,Result
+Global,Valuation scenario,Selectbox,BASE,BEAR; BULL; BASE restore,Update all scenario-sensitive outputs without state mixing,117.44 bear; 548.94 bull; 294.51 restored base,PASS
+Overview,Overview tab,Tab/dataframe,Market 86.26; DCF base 294.51,Browser refresh,Certified values and methodology note remain visible,Values persisted after consecutive refreshes,PASS
+Forecast,Forecast tab,Tab/dynamic chart/table,BASE 2026-2030,BEAR; BULL,Chart and table follow selected scenario from SQLite,Scenario-bound chart and table rendered,PASS
+WACC,WACC tab,Tab/dataframe,5.2666% base,5.0776% low; 7.0262% high,"Inputs, outputs and provenance dates displayed",All governed inputs and range displayed,PASS
+DCF,DCF tab,Tab/dataframes,294.51 base; 25 sensitivity cells,Bear/bull; sensitivity extrema; reverse DCF,All cells and scenarios reproduce independently,25/25 sensitivity cells and reverse DCF passed,PASS
+Comparable Companies,Comparable Companies tab,Tab/dataframes,90.17 central,76.99 low; 99.21 high,"Eligible peers, selected multiples and period basis displayed",Period-aligned table and EBITDA exclusion note displayed,PASS
+Synthesis,Synthesis tab,Tab/dynamic chart/text,DCF indicates upside but low confidence,1280x720 viewport,"Dynamic chart, view, terminal share, catalysts and risks visible",Responsive render passed without clipped governed text,PASS
+Model Verification,Model Verification tab,Tab/self-test,All live model checks passed,Cleanroom session,Concise PASS table with read-only model disclosure,PASS in original and isolated cleanroom browsers,PASS

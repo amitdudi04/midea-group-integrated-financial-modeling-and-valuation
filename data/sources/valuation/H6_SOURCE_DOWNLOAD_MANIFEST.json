@@ -1,0 +1,164 @@
+[
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1423,
+    "Kind": "price",
+    "Peer": "GREE",
+    "SHA256": "870a840db96555c6b8c1dfbd485dcd1d5b37d34a776a28d5b45b1c88e7a091e9",
+    "Ticker": "000651.SZ",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/000651.SZ?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 4117,
+    "Kind": "fundamentals",
+    "Peer": "GREE",
+    "SHA256": "1310a25da79804da628b6923deed4891acdc51095b427cac49a95442f4ba5b44",
+    "Ticker": "000651.SZ",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/000651.SZ?symbol=000651.SZ&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1434,
+    "Kind": "price",
+    "Peer": "HAIER_SMART_HOME",
+    "SHA256": "6b7c97482a810111227ac02f9fe370f71e2cca90307a06a3857713d5a4df630b",
+    "Ticker": "600690.SS",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/600690.SS?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 4250,
+    "Kind": "fundamentals",
+    "Peer": "HAIER_SMART_HOME",
+    "SHA256": "dc31208e26b001d618566485ae5fcbece167ae663186ef1a925ee1600bbf9353",
+    "Ticker": "600690.SS",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/600690.SS?symbol=600690.SS&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1426,
+    "Kind": "price",
+    "Peer": "HISENSE_HOME_APPLIANCES",
+    "SHA256": "40c999b593dc580705d3c8fe1c688b30d26195c797858b1d971d8dd6ca8b9842",
+    "Ticker": "000921.SZ",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/000921.SZ?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 3354,
+    "Kind": "fundamentals",
+    "Peer": "HISENSE_HOME_APPLIANCES",
+    "SHA256": "5c93d181bbb3c4abedada1acbf2f86642561a278590c6f52f7ad3694b8a10a30",
+    "Ticker": "000921.SZ",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/000921.SZ?symbol=000921.SZ&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1428,
+    "Kind": "price",
+    "Peer": "CARRIER_GLOBAL",
+    "SHA256": "8989febc833e692227e4b5e8e18c5ebf2dc65d5128f86d478d5042b6e7bf29a0",
+    "Ticker": "CARR",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/CARR?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 4611,
+    "Kind": "fundamentals",
+    "Peer": "CARRIER_GLOBAL",
+    "SHA256": "4c23b7454962c7b361268213a5439646e97fb51f9e0837f9cbab103512d0641e",
+    "Ticker": "CARR",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/CARR?symbol=CARR&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1320,
+    "Kind": "price",
+    "Peer": "DAIKIN_INDUSTRIES",
+    "SHA256": "ca0aec159fb0ffcb4248491287285f7bfada8b8aa5c14ab466bf679954a1d2fb",
+    "Ticker": "6367.T",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/6367.T?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 2561,
+    "Kind": "fundamentals",
+    "Peer": "DAIKIN_INDUSTRIES",
+    "SHA256": "04355743ef4d3d196f023d2ad6d635bc718d9ec93210055241363cef83e8a6ab",
+    "Ticker": "6367.T",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/6367.T?symbol=6367.T&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1318,
+    "Kind": "price",
+    "Peer": "PANASONIC_HOLDINGS",
+    "SHA256": "36e47945be69a409924409cf15382c32055fb3a446148066924a260d73519d21",
+    "Ticker": "6752.T",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/6752.T?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 2561,
+    "Kind": "fundamentals",
+    "Peer": "PANASONIC_HOLDINGS",
+    "SHA256": "e693d5ec05785fc8792ee65f8a368ae4d1a278f7d01ff7f325e5fa184c22c18a",
+    "Ticker": "6752.T",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/6752.T?symbol=6752.T&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1384,
+    "Kind": "price",
+    "Peer": "SCHNEIDER_ELECTRIC",
+    "SHA256": "e0fbb5252468e9d29686cfd051ddcc28e7732d69a6c24f3712fe947987613fe9",
+    "Ticker": "SU.PA",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/SU.PA?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 3224,
+    "Kind": "fundamentals",
+    "Peer": "SCHNEIDER_ELECTRIC",
+    "SHA256": "160a3c57bddf6107a8b3d861337f3deb7e0b714d352a6d05a713b91c79ef6c66",
+    "Ticker": "SU.PA",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/SU.PA?symbol=SU.PA&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1414,
+    "Kind": "price",
+    "Peer": "SIEMENS",
+    "SHA256": "873de9a310f375ba68a12781e22e763502c0c3753e327afbbc6243939a36b5b0",
+    "Ticker": "SIE.DE",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/SIE.DE?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 4503,
+    "Kind": "fundamentals",
+    "Peer": "SIEMENS",
+    "SHA256": "762f93009cbf683a73ca2389f9253f0f5af84c700dd754135a91b8d5795540a7",
+    "Ticker": "SIE.DE",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/SIE.DE?symbol=SIE.DE&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 1370,
+    "Kind": "price",
+    "Peer": "ABB",
+    "SHA256": "db3bbcef80155b16a74f8f58e99d8af0319ceeae6413abe372c71846fb6ca4f8",
+    "Ticker": "ABBN.SW",
+    "URL": "https://query1.finance.yahoo.com/v8/finance/chart/ABBN.SW?period1=1788998400&period2=1789344000&interval=1d&events=div%2Csplits"
+  },
+  {
+    "Access_Date": "2026-09-13",
+    "Bytes": 3656,
+    "Kind": "fundamentals",
+    "Peer": "ABB",
+    "SHA256": "79754e00086deca83b94d4199728b7a10f6366f587ba38e86e4ca6abcf77f116",
+    "Ticker": "ABBN.SW",
+    "URL": "https://query2.finance.yahoo.com/ws/fundamentals-timeseries/v1/finance/timeseries/ABBN.SW?symbol=ABBN.SW&type=quarterlyOrdinarySharesNumber,annualOrdinarySharesNumber,trailingTotalRevenue,trailingEBITDA,trailingEBIT,trailingNetIncome,quarterlyTotalDebt,quarterlyCashCashEquivalentsAndShortTermInvestments,quarterlyStockholdersEquity,quarterlyMinorityInterest&period1=1757635200&period2=1789257600"
+  }
+]
