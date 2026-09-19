@@ -1,9 +1,9 @@
 {
   "Schema": "FINAL_ACADEMIC_PUBLICATION_AUDIT_R3_1",
   "Repository_URL": "https://github.com/amitdudi04/midea-group-integrated-financial-modeling-and-valuation",
-  "README_SHA256": "0616550f0e525f4df20ead68d08881817e8b7a0bbdd8ee920f0a44f81e469129",
-  "Final_Results_And_Findings_SHA256": "d9f0f3f0682297c0b952f4eecbfec09b6a36d17e006c8459d8798aeb6557e674",
-  "Citation_SHA256": "3266f2a5879ab719dc4d2e8886179d5a6962665bad4a843b2aee9a2fd9f28819",
+  "README_SHA256": "ca7417e3729d866311d99ad56ae56d7522d88944b23a83a28a60a6b287221cb2",
+  "Final_Results_And_Findings_SHA256": "8f7a0bba0ef2c550afaad5cf21ac60835cde17df542650aae963bf39f7294515",
+  "Citation_SHA256": "30965f6b501d938ec6323b1340a7a5b7731167a3b22efb61e8034743d779dae0",
   "README_Result_Mismatches": 0,
   "README_Missing_Values": [],
   "Final_Findings_Result_Mismatches": 0,
