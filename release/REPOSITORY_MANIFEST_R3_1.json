@@ -101,9 +101,9 @@
       "SHA256": "0096e82c397aea0dd8585aa316231654c6612fe78d4c37be0d2b0b1eee4b089e"
     },
     {
-      "Bytes": 440,
+      "Bytes": 623,
       "Path": "docs/AI_ASSISTANCE_DISCLOSURE.md",
-      "SHA256": "a386ecd9e22c01835bed1ab1d20b4a1170e5357cb85d0d02b36fb6ed3b674b41"
+      "SHA256": "efe5b73e17d47a7045b87dd8ae476a37afe21fa6603d695c89d5e0e92f5d8bca"
     },
     {
       "Bytes": 19623,
@@ -278,7 +278,7 @@
     {
       "Bytes": 1215,
       "Path": "release/FINAL_GITHUB_GOVERNANCE_RESULT_R3_1.json",
-      "SHA256": "6c1639b7e214016f16b050acb1c8df29dca9958c86adf624ea49ef586ea0d3b4"
+      "SHA256": "970abadb905de9a778f37a992ad69f1efe9495fd019f74a8f6d29b02ff29bbd6"
     },
     {
       "Bytes": 8084,
@@ -841,7 +841,7 @@
       "SHA256": "4e41dc682d568534e4a76e70ad8ace0303fbf7dca1aa7728a0c1a810c3288048"
     }
   ],
-  "Generated_UTC": "2026-09-19T14:59:24.845574+00:00",
+  "Generated_UTC": "2026-09-19T15:57:52.408815+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
