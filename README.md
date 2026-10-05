@@ -4,8 +4,6 @@
 
 An academic, source-bound valuation of Midea Group combining a 2026E–2030E integrated forecast, economic working-capital analysis, FCFF DCF, reverse DCF, period-aligned trading comparables, a formula-linked Excel model, SQLite outputs, and an interactive Streamlit dashboard.
 
-**Repository:** https://github.com/amitdudi04/midea-group-integrated-financial-modeling-and-valuation
-
 ## Research Objective
 
 The project asks what equity value follows from Midea's operating outlook, cash-flow conversion, market-value cost of capital, non-operating asset/debt bridge, and governed share denominator. It also tests what the market price implies and whether peer valuation supports the DCF signal.
