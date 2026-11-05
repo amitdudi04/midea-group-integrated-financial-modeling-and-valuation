@@ -40,6 +40,12 @@ Domestic-only core-peer medians produce lower indicative per-share values: EV/Re
 
 The numerical workpapers are [valuation stress tests](workpapers/SUPPLEMENTARY_VALUATION_STRESSES_R3_1.csv) and [domestic-core peer sensitivity](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv). The accepted model is not overwritten. The driver register's Lower/Central/Upper columns represent named scenario paths rather than guaranteed ascending statistical bounds; 30 nonmonotonic numeric rows remain disclosed and unchanged.
 
+## Separate experimental revision (R4)
+
+A [dated valuation and post-sample research revision](research_r4/README.md) examines the September 2026 valuation timing, normalized 2031 free cash flow, publicly available August interim figures, direct investment-income exclusions, October post-sample forecast error, and alternative operating cash-flow scenarios.
+
+**R4 is exploratory and not the accepted R3 model.** It constructs linked annual operating FCFF forecasts but not a complete replacement three-statement model; 2026 stub FCFF is seasonality-agnostic and the valuation-date net-debt/treasury bridge remains provisional. The original R3 valuation outputs are intentionally unchanged.
+
 ## Academic research documents
 
 1. [Methodology](docs/METHODOLOGY.md) — data cutoff, integrated forecasts, working-capital classification, WACC, DCF, equity bridge and peer-selection conventions.
