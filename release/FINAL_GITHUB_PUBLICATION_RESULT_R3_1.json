@@ -62,5 +62,19 @@
     "Supplementary_Stress_Results": "10 stress rows and 8 peer-sensitivity rows validated by an independent arithmetic script",
     "Independent_Financial_Verification": "375/375 financial controls PASS; independent recalculator PASS; repository end-to-end verifier PASS",
     "Archival_Attestation_Figures": "Earlier R3.1 historical snapshot values above are retained as originally recorded, not asserted to describe the subsequent file tree."
+  },
+  "Separate_R4_Research_Check_2026_11_06": {
+    "Status": "EXPLORATORY_RESEARCH_APPENDIX_NOT_PART_OF_ORIGINAL_R3_VALUATION",
+    "R3_Economic_Model_Unchanged": true,
+    "R4_Scenario_Values_CNY": [
+      37.7252597,
+      125.18607823,
+      269.61638247
+    ],
+    "R4_Valuation_Date": "2026-09-11",
+    "R4_Bridge_Caveat": "2026-06-30 balance sheet with assumptions; not certified September 11 account balances",
+    "R4_Company_Data_Available_By_Date": "2026 interim published Aug 28/29",
+    "R4_Post_Sample_Data": "2026 nine-month report published Oct 30; excluded from valuation",
+    "Original_R3_Release_Assertions_Remain_Historical": true
   }
 }
