@@ -44,7 +44,7 @@ The numerical workpapers are [valuation stress tests](workpapers/SUPPLEMENTARY_V
 
 A [dated valuation and post-sample research revision](research_r4/README.md) examines the September 2026 valuation timing, normalized 2031 free cash flow, publicly available August interim figures, direct investment-income exclusions, October post-sample forecast error, and alternative operating cash-flow scenarios.
 
-**R4 is exploratory and not the accepted R3 model.** It constructs linked annual operating FCFF forecasts but not a complete replacement three-statement model; 2026 stub FCFF is seasonality-agnostic and the valuation-date net-debt/treasury bridge remains provisional. The original R3 valuation outputs are intentionally unchanged.
+**R4 is exploratory and not the accepted R3 model.** Its outputs are independently checked in CI. It constructs linked annual operating FCFF forecasts but not a complete replacement three-statement model; 2026 stub FCFF is seasonality-agnostic and the valuation-date net-debt/treasury bridge remains provisional. The original R3 valuation outputs are intentionally unchanged.
 
 ## Academic research documents
 
