@@ -1,0 +1,21 @@
+{
+  "research_revision": "R4_EXPLORATORY",
+  "original_R3_unchanged": true,
+  "as_of": "2026-09-11",
+  "interim_publication": "2026-08-29",
+  "nine_month_publication": "2026-10-30",
+  "original_operating_cutoff": "2026-08-20",
+  "interim_source": "https://static.cninfo.com.cn/finalpage/2026-08-28/1225533135.PDF",
+  "post_sample_source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF",
+  "partial_2026_stub_days": 111,
+  "partial_2026_stub_ratio": 0.3041095890410959,
+  "limitations": [
+    "calendar_day_pro_rata_2026_FCFF_not_realized_stub",
+    "June_balance_sheet_bridge_not_September_11",
+    "H1_debt_June_2026_borrowings_80327_263_not_September_date",
+    "Treasury_availability_assumed_not_proven",
+    "other_operating_income_not_exhaustively_normalized",
+    "not_a_rebuilt_three_statement_forecast",
+    "not_an_investment_price_target"
+  ]
+}

@@ -6,6 +6,11 @@
       "Bytes": 208
     },
     {
+      "Path": ".github/workflows/publish-r4-experimental.yml",
+      "SHA256": "ad230b35ed324233707955bcd49732079e9dffef3349aa3d21727281a9b1fb80",
+      "Bytes": 1893
+    },
+    {
       "Path": ".github/workflows/reconcile-release.yml",
       "SHA256": "04c59cd5ee00cd72e251c800422ef00d99b1d86a318929cdf920e811b0f1e1bb",
       "Bytes": 1644
@@ -37,8 +42,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "408fa470e16b516926c0fd17c1af6f45408d9db66c0db9b9befbbc42611bc21d",
-      "Bytes": 6351
+      "SHA256": "bea8a0d90e99085d21ce6f49977800552345ad4f0777745540bc241a81c6c507",
+      "Bytes": 7087
     },
     {
       "Path": "dashboard/app.py",
@@ -299,6 +304,56 @@
       "Path": "requirements.txt",
       "SHA256": "497f4d124f5fb4dba13b8cc50ecc3ed2ccb97e572fcbf4874c6857e48d6265b0",
       "Bytes": 54
+    },
+    {
+      "Path": "research_r4/README.md",
+      "SHA256": "8080dacd77fc7928fdd6f954bc27cd36b80e1864d9c324183a77c7aff6a18c40",
+      "Bytes": 11432
+    },
+    {
+      "Path": "research_r4/assumptions.json",
+      "SHA256": "05c4842586011bc1b4c126dfee934c3ef7f37e1c53e51e07ce2c563c7aff5cb3",
+      "Bytes": 875
+    },
+    {
+      "Path": "research_r4/dated_valuation_scenarios.csv",
+      "SHA256": "bb881cc8debf999b673c8816c260323a1a6cfc6e31cfb8ca158a46b86bc2b092",
+      "Bytes": 1369
+    },
+    {
+      "Path": "research_r4/ebit_bridge_from_r3.csv",
+      "SHA256": "9422da74e11de381de1d0e5f0660516f9fa4fc87e0214127424be5b9408b9156",
+      "Bytes": 1535
+    },
+    {
+      "Path": "research_r4/linked_operating_fcff_scenarios.csv",
+      "SHA256": "a591864cb94024c3e53a47ab6591fe4197f0b6868366a599de72b3c3cb72d3e3",
+      "Bytes": 3368
+    },
+    {
+      "Path": "research_r4/post_sample_nine_month_evaluation.csv",
+      "SHA256": "b89179fbee39e931ed04292f8e087df9dfc67bdf085d59b8efebd4cceb523993",
+      "Bytes": 337
+    },
+    {
+      "Path": "research_r4/provisional_june_bridge.csv",
+      "SHA256": "0942f4273f889ffcccca1c888297cfab096101f60aef91c7a77651db50f31bd4",
+      "Bytes": 751
+    },
+    {
+      "Path": "research_r4/publication_cutoff_registry.csv",
+      "SHA256": "5390685a03dc164b0d28618772301ba3f2dddffd4da6d75a41fd790acea5937a",
+      "Bytes": 333
+    },
+    {
+      "Path": "research_r4/rebuild_exploratory_revision.py",
+      "SHA256": "aa8b21a6491112c7a7e9bb8241931efb80974b687f8bcf11d0496f9530b13303",
+      "Bytes": 12406
+    },
+    {
+      "Path": "research_r4/verify_exploratory_revision.py",
+      "SHA256": "d8effa9643a0579372a5d317c9ec703cf4dabe98a406b69d2d1548de5c72c322",
+      "Bytes": 6019
     },
     {
       "Path": "tests/test_repository.py",
@@ -846,7 +901,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-05T19:59:43.947644+00:00",
+  "Generated_UTC": "2026-11-05T20:37:20.549896+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
