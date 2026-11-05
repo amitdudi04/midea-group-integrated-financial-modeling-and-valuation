@@ -39,6 +39,17 @@ The tracked [repository manifest](../release/REPOSITORY_MANIFEST_R3_1.json) and 
 
 Historical attestations, cryptographic external roots, tagged releases, and sealed-distribution evidence refer to the original R3/R3.1 publication and should remain distinguishable from later documentation-only or supplementary research work. The separately sealed approximately 55 MB release ZIP is not included in the public repository; its detached verification requires access to the exact archive.
 
+## Separately reproducible R4 exploratory research
+
+The accepted R3 model remains the historical authority. A distinct [R4 research appendix](../research_r4/README.md) analyzes valuation-date timing, original EBIT financial-income exclusions, the August 2026 interim report, a normalized 2031 terminal FCFF, later October 2026 forecast errors and re-estimated *operating FCFF* scenarios.
+
+```bash
+python -B research_r4/rebuild_exploratory_revision.py
+python -B research_r4/verify_exploratory_revision.py
+```
+
+CI executes both commands and checks that generated tracked files reproduce byte-for-byte without unstaged or untracked outputs. The R4 source script uses the pre-valuation CAS half-year disclosure; the 30 October nine-month results enter only its separate post-sample diagnostic. The 2026 remainder FCFF is **pro-rated**, and its June 2026 net-financial-assets bridge does not establish exact 11 September account balances. R4 is a linked operating/FCFF forecast, **not a complete replacement three-statement model**.
+
 ## What remains unverified from a fresh clone
 
 A passing public verifier establishes consistency of the shipped model and source-bound schedules. It does **not** independently confirm all issuer disclosures, liquidity of treasury holdings at the valuation date, 2030 operating assumptions, future market returns, third-party source reacquisition or the economic desirability of the shares. See [Limitations](LIMITATIONS.md) and [Research Methodology](METHODOLOGY.md) for those interpretive boundaries.
