@@ -1,0 +1,40 @@
+name: Reconcile public release integrity
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  reconcile:
+    if: "github.event.head_commit.message == 'release: request manifest reconciliation'"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild manifest and current academic document bindings
+        run: python -B verification/refresh_public_manifest.py
+      - name: Install model verification dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Verify accepted model and new supplementary analysis
+        run: |
+          python -B -m pytest -p no:cacheprovider tests/test_repository.py -q
+          python -B verification/final_calculation_verifier.py
+          python -B verification/independent_model_recalculator.py
+          python -B verification/supplementary_stress_verifier.py
+          python -B verification/end_to_end_verifier.py
+      - name: Publish verified manifest and authority without rewriting evidence
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add release/REPOSITORY_MANIFEST_R3_1.json release/REPOSITORY_AUTHORITY_R3_1.json
+          git diff --cached --quiet && { echo "No manifest change to publish"; exit 0; }
+          git commit -m "release: bind current academic release files and verified financial artifacts"
+          git push origin HEAD:main
