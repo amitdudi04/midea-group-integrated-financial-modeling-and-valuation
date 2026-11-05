@@ -17,8 +17,8 @@
     },
     {
       "Path": ".github/workflows/verify.yml",
-      "SHA256": "391e458c8f9b0bef5655c90ded71a13670a263a359f5d86b0e2e1618a2098ea3",
-      "Bytes": 607
+      "SHA256": "f578430d5574615043ee89e6841de57e8226ab70d8ee5a896edfea4d73d5d134",
+      "Bytes": 953
     },
     {
       "Path": ".gitignore",
@@ -42,8 +42,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "bea8a0d90e99085d21ce6f49977800552345ad4f0777745540bc241a81c6c507",
-      "Bytes": 7087
+      "SHA256": "5760f1354af7cc3c3b6f095c63c8d40cd2612924e0e58e271661e00e03dbbd6e",
+      "Bytes": 7116
     },
     {
       "Path": "dashboard/app.py",
@@ -307,8 +307,8 @@
     },
     {
       "Path": "research_r4/README.md",
-      "SHA256": "8080dacd77fc7928fdd6f954bc27cd36b80e1864d9c324183a77c7aff6a18c40",
-      "Bytes": 11432
+      "SHA256": "5281fdf966251f67a2176e27c4ee20aabece5ce32c8de5184571a1ace144d90a",
+      "Bytes": 12786
     },
     {
       "Path": "research_r4/assumptions.json",
@@ -317,38 +317,38 @@
     },
     {
       "Path": "research_r4/dated_valuation_scenarios.csv",
-      "SHA256": "bb881cc8debf999b673c8816c260323a1a6cfc6e31cfb8ca158a46b86bc2b092",
-      "Bytes": 1369
+      "SHA256": "bf88755f30555a6eb52cb227cffdd0fc65f55c4af53011abebc332249fceab58",
+      "Bytes": 1365
     },
     {
       "Path": "research_r4/ebit_bridge_from_r3.csv",
-      "SHA256": "9422da74e11de381de1d0e5f0660516f9fa4fc87e0214127424be5b9408b9156",
-      "Bytes": 1535
+      "SHA256": "e6b321c2b25a16d3c83ae2e31c05de9ab0f8f988a24f18628b3305c600644a09",
+      "Bytes": 1519
     },
     {
       "Path": "research_r4/linked_operating_fcff_scenarios.csv",
-      "SHA256": "a591864cb94024c3e53a47ab6591fe4197f0b6868366a599de72b3c3cb72d3e3",
-      "Bytes": 3368
+      "SHA256": "cd216f89fe84a5babc26ca586c58b58a22b11218d0faed88656cd63d9af55281",
+      "Bytes": 3352
     },
     {
       "Path": "research_r4/post_sample_nine_month_evaluation.csv",
-      "SHA256": "b89179fbee39e931ed04292f8e087df9dfc67bdf085d59b8efebd4cceb523993",
-      "Bytes": 337
+      "SHA256": "f0f603d2aa30f1c6663a65e75c38cf7aa9177fb0fa5cff3dc234a842653c3194",
+      "Bytes": 334
     },
     {
       "Path": "research_r4/provisional_june_bridge.csv",
-      "SHA256": "0942f4273f889ffcccca1c888297cfab096101f60aef91c7a77651db50f31bd4",
-      "Bytes": 751
+      "SHA256": "6f815a5370ef26538e309441c009235d7682280914f2fd974bb1ee76321f898b",
+      "Bytes": 747
     },
     {
       "Path": "research_r4/publication_cutoff_registry.csv",
-      "SHA256": "5390685a03dc164b0d28618772301ba3f2dddffd4da6d75a41fd790acea5937a",
-      "Bytes": 333
+      "SHA256": "5a08c8c5c6e9d458c9b87aeca928cc165f628a5905a4f50c37e65dc2a9d8dff6",
+      "Bytes": 329
     },
     {
       "Path": "research_r4/rebuild_exploratory_revision.py",
-      "SHA256": "aa8b21a6491112c7a7e9bb8241931efb80974b687f8bcf11d0496f9530b13303",
-      "Bytes": 12406
+      "SHA256": "a718202cdd354f65bf40e4d0810f9f916cb16331ce9c1a5ae307da37e1398e76",
+      "Bytes": 12426
     },
     {
       "Path": "research_r4/verify_exploratory_revision.py",
@@ -901,7 +901,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-05T20:37:20.549896+00:00",
+  "Generated_UTC": "2026-11-05T20:40:33.770003+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
