@@ -13,3 +13,4 @@ jobs:
       - run: python -B verification/final_calculation_verifier.py
       - run: python -B verification/independent_model_recalculator.py
       - run: python -B verification/end_to_end_verifier.py
+      - run: python -B verification/supplementary_stress_verifier.py
