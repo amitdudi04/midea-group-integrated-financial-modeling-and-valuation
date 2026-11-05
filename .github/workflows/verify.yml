@@ -14,3 +14,9 @@ jobs:
       - run: python -B verification/independent_model_recalculator.py
       - run: python -B verification/end_to_end_verifier.py
       - run: python -B verification/supplementary_stress_verifier.py
+      - run: python -B research_r4/rebuild_exploratory_revision.py
+      - run: python -B research_r4/verify_exploratory_revision.py
+      - name: Ensure tracked R4 numerical outputs reproduce byte-for-byte
+        run: |
+          git diff --exit-code -- research_r4/
+          test -z "$(git ls-files --others --exclude-standard research_r4/)"
