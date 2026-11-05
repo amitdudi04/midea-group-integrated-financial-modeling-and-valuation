@@ -85,7 +85,7 @@ def run():
   required_cash=.08285274*revenue2026
   excess=max(0,INTERIM["cash_equivalents_2026_06"]-required_cash)
   available_treasury=INTERIM["current_treasury_2026_06"]*par["liquid"]
-  adjustment=excess+available_treasury-80327.-INTERIM["nci_2026_06"]
+  adjustment=excess+available_treasury+INTERIM["term_deposits_2026_06"]*par["liquid"]-80327.263-INTERIM["nci_2026_06"]
   ok(b["Operating_Cash_Reserve_Proxy"],required_cash,"cash reserve")
   ok(b["Bridge_Provisional"],adjustment,"provisional bridge")
   ok(x["Bridge_Adjustment_Provisional"],adjustment,"provisional bridge again")
