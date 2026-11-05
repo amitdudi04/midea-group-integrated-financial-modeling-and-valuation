@@ -38,7 +38,7 @@ These are *one-variable or limited-combination accounting sensitivities*, not fu
 
 Domestic-only core-peer medians produce lower indicative per-share values: EV/Revenue **57.68**, EV/EBIT **48.44**, P/E **65.95**, and P/B **51.66**, compared with the corresponding six-peer estimates **83.04**, **97.30**, **104.92**, and **58.86**. Neither peer selection is automatically correct; the difference measures benchmark sensitivity.
 
-The numerical workpapers are [valuation stress tests](workpapers/SUPPLEMENTARY_VALUATION_STRESSES_R3_1.csv) and [domestic-core peer sensitivity](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv). The accepted model is not overwritten.
+The numerical workpapers are [valuation stress tests](workpapers/SUPPLEMENTARY_VALUATION_STRESSES_R3_1.csv) and [domestic-core peer sensitivity](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv). The accepted model is not overwritten. The driver register's Lower/Central/Upper columns represent named scenario paths rather than guaranteed ascending statistical bounds; 30 nonmonotonic numeric rows remain disclosed and unchanged.
 
 ## Academic research documents
 
