@@ -71,7 +71,7 @@ def read_rows(path):
 
 def write_csv(name,rows,fields):
  with (OUT/name).open("w", newline="", encoding="utf-8") as f:
-  w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=fields,lineterminator="\n");w.writeheader();w.writerows(rows)
 
 def fmt(x):
  return round(float(x),8)
