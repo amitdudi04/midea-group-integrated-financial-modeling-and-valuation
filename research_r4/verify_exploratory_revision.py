@@ -14,7 +14,7 @@ def rd(path):
 def ok(a,b,tag,tol=0.000035):
  assert math.isclose(float(a),float(b),abs_tol=tol,rel_tol=0),f"{tag}: {a} != {b}"
 def run():
- from research_r4.rebuild_exploratory_revision import INTERIM,NINE_MONTH,scenarios
+ from rebuild_exploratory_revision import INTERIM,NINE_MONTH,scenarios
  val=rd("research_r4/dated_valuation_scenarios.csv")
  annual=rd("research_r4/linked_operating_fcff_scenarios.csv")
  bridge=rd("research_r4/provisional_june_bridge.csv")
