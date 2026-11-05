@@ -53,5 +53,14 @@
   "Schema": "FINAL_GITHUB_PUBLICATION_RESULT_R3_1",
   "Source_Provenance_Status": "PASS",
   "Unexpected_Public_Files": 0,
-  "Workflow_Commit_SHA": "59d7d16b2d5ce22354081b166be9d16fe00e94a9"
+  "Workflow_Commit_SHA": "59d7d16b2d5ce22354081b166be9d16fe00e94a9",
+  "Subsequent_Academic_Documentation_Review_2026_11_06": {
+    "Purpose": "Distinguish the unchanged original R3 release from later documentation and additive stress workpapers.",
+    "Accepted_R3_Economics_Unchanged": true,
+    "Current_Main_Reconciled_SHA": "ad0a1f02b38f3c783a31ff0158a0a1542bd50d39",
+    "Manifest_Reconciled": true,
+    "Supplementary_Stress_Results": "10 stress rows and 8 peer-sensitivity rows validated by an independent arithmetic script",
+    "Independent_Financial_Verification": "375/375 financial controls PASS; independent recalculator PASS; repository end-to-end verifier PASS",
+    "Archival_Attestation_Figures": "Earlier R3.1 historical snapshot values above are retained as originally recorded, not asserted to describe the subsequent file tree."
+  }
 }
