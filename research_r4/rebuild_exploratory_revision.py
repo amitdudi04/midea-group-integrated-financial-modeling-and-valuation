@@ -29,6 +29,7 @@ INTERIM={
  "adjusted_attributable_2025_H1":26235.399,
  "cfo_2026_H1":37552.090, "cfo_2025_H1":37281.015,
  "cash_equivalents_2026_06":74614.244,
+ "term_deposits_2026_06":8496.066,
  "current_treasury_2026_06":158310.938,
  "nci_2026_06":12931.886,
  "assets_2026_06":643101.789, "parent_equity_2026_06":212861.055
@@ -45,7 +46,7 @@ NINE_MONTH={
 # not consolidated total revenue inclusive of finance-company interest.
 # June 2026 debt is a provisionally sourced rounded aggregate, requiring
 # a final note-level face/carrying-value and convertible/lease reconciliation.
-H1_DEBT_PROVISIONAL=80327.0
+H1_DEBT_PROVISIONAL=80327.263
 OPERATING_CASH_RESERVE_RATIO=.08285274
 TAX=.152566
 shares=7402.51366
@@ -178,8 +179,9 @@ def main():
   min_reserve=OPERATING_CASH_RESERVE_RATIO*(INTERIM["revenue_2026_H1"]+h2_25*(1+opts["H2_yoy"]))
   excess=max(0,INTERIM["cash_equivalents_2026_06"]-min_reserve)
   treasury=INTERIM["current_treasury_2026_06"]*opts["liquid"]
+  term=INTERIM["term_deposits_2026_06"]*opts["liquid"]
   nci=INTERIM["nci_2026_06"]
-  bridge=excess+treasury-H1_DEBT_PROVISIONAL-nci
+  bridge=excess+treasury+term-H1_DEBT_PROVISIONAL-nci
   equity=ev+bridge
   valuations.append({"Scenario":s,"Valuation_Date":VALUATION.isoformat(),
      "Forecast_Source":"R4_DISCLOSURE_CONSTRAINED_ILLUSTRATIVE",
@@ -201,8 +203,10 @@ def main():
     "H1_Current_Fixed_Income_Products":INTERIM["current_treasury_2026_06"],
     "Treasury_Available_Fraction_ASSUMED":opts["liquid"],
     "Available_Treasury_Proxy":fmt(treasury),
+    "H1_Term_Deposits_Source":INTERIM["term_deposits_2026_06"],
+    "Term_Deposits_Available_Proxy":fmt(term),
     "H1_Debt_Provisional":H1_DEBT_PROVISIONAL,
-    "H1_NCI":nci,"Omitted_Stale_2025_Term_Deposits_And_Investments":"YES",
+    "H1_NCI":nci,"Omitted_Stale_2025_Other_Investments":"YES",
     "Bridge_Provisional":fmt(bridge),"Dated_Through":"2026-06-30"})
  write_csv("linked_operating_fcff_scenarios.csv",projections,list(projections[0]))
  write_csv("dated_valuation_scenarios.csv",valuations,list(valuations[0]))
@@ -231,7 +235,7 @@ def main():
   "interim_source":SOURCES["interim_CAS"],"post_sample_source":SOURCES["nine_month_CAS"],
   "partial_2026_stub_days":DAYS_2026,"partial_2026_stub_ratio":STUB,
   "limitations":["calendar_day_pro_rata_2026_FCFF_not_realized_stub",
-  "June_balance_sheet_bridge_not_September_11","H1_debt_rounded_secondary_proxy",
+  "June_balance_sheet_bridge_not_September_11","H1_debt_June_2026_borrowings_80327_263_not_September_date",
   "Treasury_availability_assumed_not_proven",
   "other_operating_income_not_exhaustively_normalized",
   "not_a_rebuilt_three_statement_forecast","not_an_investment_price_target"]}
