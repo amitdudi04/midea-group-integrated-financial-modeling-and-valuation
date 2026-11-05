@@ -1,102 +1,87 @@
-# Midea Group — Integrated Financial Modeling, Forecasting & Valuation
+# Midea Group — Integrated Financial Modeling and Valuation
 
-## Overview
+**An academic, source-traceable study of Midea Group (000333.SZ)**  
+**Operating information cutoff:** 20 August 2026 · **Valuation market-data date:** 11 September 2026 · **Forecast:** 2026E–2030E
 
-An academic, source-bound valuation of Midea Group combining a 2026E–2030E integrated forecast, economic working-capital analysis, FCFF DCF, reverse DCF, period-aligned trading comparables, a formula-linked Excel model, SQLite outputs, and an interactive Streamlit dashboard.
+## Research objective
 
-## Research Objective
+What equity value follows from a consolidated five-year operating forecast, economically classified cash flows, a market-based discount rate and explicit adjustments for non-operating assets and financing? The project compares an FCFF discounted cash-flow valuation with period-aligned trading multiples and examines what the observed price implies.
 
-The project asks what equity value follows from Midea's operating outlook, cash-flow conversion, market-value cost of capital, non-operating asset/debt bridge, and governed share denominator. It also tests what the market price implies and whether peer valuation supports the DCF signal.
+The accepted **R3 underlying model and financial outputs are unchanged**. New valuation sensitivities are explicitly labeled supplementary and do not modify the integrated statements, workbook, SQLite outputs or historical research release.
 
-## Executive Results
+## Accepted valuation results
 
-| Result | Value |
+| Measure | Accepted R3 value |
 |---|---:|
-| Market price (11 September 2026) | CNY 86.26/share |
-| WACC low / base / high | 5.0776% / 5.2666% / 7.0262% |
-| FCFF 2026E / 2027E / 2028E | RMB 43,472.7m / 50,350.5m / 54,197.5m |
-| FCFF 2029E / 2030E | RMB 58,626.5m / 63,639.6m |
-| DCF bear / base / bull | CNY 117.44 / 294.51 / 548.94 |
-| Comps low / central / high | CNY 76.99 / 90.17 / 99.21 |
-| DCF sensitivity minimum / maximum | CNY 149.16 / 380.99 |
-| Terminal value / enterprise value | 88.8% |
-| Base DCF upside to market | 241.4% |
-| Risk / confidence | HIGH / LOW TO MEDIUM |
-| Final view | DCF indicates upside, but confidence is low to medium |
+| Observed 11 September 2026 price | CNY 86.26/share |
+| Base WACC | 5.2666% |
+| 2026E / 2030E revenue | RMB 485,985.0m / 664,184.6m |
+| 2026E / 2030E FCFF | RMB 43,472.7m / 63,639.6m |
+| DCF bear / base / bull | CNY 117.44 / **294.51** / 548.94 |
+| Six-peer comparables low / central / high | CNY 76.99 / **90.17** / 99.21 |
+| Base terminal value as share of enterprise value | **88.8%** |
+| Interpretation | High valuation risk; low-to-medium conviction |
 
-## Key Findings
+The DCF and six-peer methods disagree substantially. Their dispersion, heavy terminal-value dependence, and assumptions concerning sustained negative operating working capital and treasury-asset availability **limit confidence**. The DCF's large model-implied upside should not be presented as an assured trading opportunity.
 
-- Revenue grows from RMB 485,985.0 million in 2026E to RMB 664,184.6 million in 2030E.
-- FCFF increases from RMB 43,472.7 million to RMB 63,639.6 million over the explicit forecast.
-- Economic NWC is negative; continued operating-liability funding supports cash flow but creates execution risk.
-- The base WACC is 5.2666%.
-- The CNY 294.51 base DCF materially exceeds the CNY 90.17 comps central value.
-- 88.8% of base enterprise value comes from terminal value, which limits confidence.
-- Reverse DCF indicates that the market price embeds materially lower cash-flow economics than the base case.
+## Supplementary robustness and peer-selection diagnostics
 
-For the complete financial interpretation, forecast outputs, valuation reconciliation, market-implied expectations, risks, limitations, and conclusions, see [Final Results and Findings](docs/FINAL_RESULTS_AND_FINDINGS.md).
+These are *one-variable or limited-combination accounting sensitivities*, not fully recalculated three-statement scenarios and not replacements for the accepted R3 prices.
 
-## Model Architecture
+| Diagnostic | Illustrative CNY/share |
+|---|---:|
+| Accepted base DCF | 294.51 |
+| Base FCFF with +100 bps WACC | 219.84 |
+| No future negative-NWC cash release (with matching terminal continuation removed) | 234.67 |
+| 50% modeled availability haircut on fixed-income treasury products | 284.02 |
+| High WACC + half NWC release + half treasury availability | 156.85 |
 
-Audited history → 2026 Q1/event bridge → forecast drivers → three statements and schedules → economic NWC and FCFF → WACC → DCF/reverse DCF/comparables → synthesis → Excel, SQLite, dashboard, reports, and verification.
+Domestic-only core-peer medians produce lower indicative per-share values: EV/Revenue **57.68**, EV/EBIT **48.44**, P/E **65.95**, and P/B **51.66**, compared with the corresponding six-peer estimates **83.04**, **97.30**, **104.92**, and **58.86**. Neither peer selection is automatically correct; the difference measures benchmark sensitivity.
 
-## Methodology
+The numerical workpapers are [valuation stress tests](workpapers/SUPPLEMENTARY_VALUATION_STRESSES_R3_1.csv) and [domestic-core peer sensitivity](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv). The accepted model is not overwritten.
 
-The primary method is an FCFF DCF. Trading comparables use source-native TTM peer data with compatible Midea LTM denominators; P/B uses point-in-time book equity. Reverse DCF and a 5×5 WACC–terminal-growth matrix test the valuation. The operating-information cutoff is **20 August 2026** and the valuation date is **11 September 2026**.
+## Academic research documents
 
-## Repository Structure
+1. [Methodology](docs/METHODOLOGY.md) — data cutoff, integrated forecasts, working-capital classification, WACC, DCF, equity bridge and peer-selection conventions.
+2. [Results](docs/RESULTS.md) — full accepted financial tables, economic interpretation and separately qualified supplementary diagnostics.
+3. [Limitations](docs/LIMITATIONS.md) — economic judgments, terminal-value risk, non-operating-asset availability, peer comparability and data-provenance limits.
+4. [Reproducibility](docs/REPRODUCIBILITY.md) — saved artifacts, independent calculation checks and distinctions between model arithmetic and historical source recreation.
 
-| Path | Purpose |
+The [AI-assistance disclosure](AI_ASSISTANCE_DISCLOSURE.md) describes the role and limitations of development aids. Source inputs, driver schedules and audit evidence retain their names in the technical folders rather than competing with the academic narrative.
+
+## Research artifact map
+
+| Directory | Role |
 |---|---|
-| `data/` | Processed inputs, redistributable sources, and source registry |
-| `model/` | Forecast, schedules, valuation outputs, and SQLite model |
-| `workpapers/` | NWC, beta, ERP, debt cost, capital structure, cash reserve, comps, synthesis |
-| `excel/` | Formula-linked institutional workbook |
-| `reports/` | Final report and investment memo |
-| `dashboard/` | Read-only interactive Streamlit dashboard |
-| `verification/` | Public, independent, end-to-end, cleanroom, and mutation controls |
-| `docs/` | Finance paper, methodology, architecture, assumptions, and reproducibility |
-| `release/` | Repository manifest and authority |
+| `data/` | Source registry, original accessible methodological source files and processed financial inputs |
+| `model/` | R3 financial schedules, WACC, FCFF, three scenario DCFs, reverse DCF, peer valuation, SQLite authority |
+| `workpapers/` | Capital-structure, ERP, cash taxonomy, working-capital and supplementary stress calculations |
+| `excel/` | Formula-linked institutional financial workbook |
+| `dashboard/` | SQLite-backed, read-only Streamlit user interface |
+| `reports/` | Final valuation report and short investment memo |
+| `verification/` | Published calculation verifiers, source integrity checks, retained historical validation evidence |
+| `release/` | Repository hashes, release authority and historically dated attestations |
 
-## Interactive Dashboard
+## Reproduce public computations
 
-```bash
-streamlit run dashboard/app.py
-```
-
-Open `http://localhost:8501`. The dashboard reads the SQLite model in read-only mode and provides Bear/Base/Bull scenarios, dynamic charts, sensitivity, comparables, synthesis, and live model checks. No public deployment is implied.
-
-## Reproduce the Analysis
+From a Python 3.11+ environment:
 
 ```bash
 python -m pip install -r requirements.txt
+python -B -m pytest -p no:cacheprovider tests/test_repository.py -q
 python -B verification/final_calculation_verifier.py
 python -B verification/independent_model_recalculator.py
 python -B verification/end_to_end_verifier.py
-python -B -m pytest tests/test_repository.py
+python -B verification/supplementary_stress_verifier.py
 streamlit run dashboard/app.py
 ```
 
-## Final Reports
+The original R3 model verification includes **375 controls**. The supplemental verifier independently recomputes the diagnostic cash-flow/peer tables. All original source archives are not redistributed; exact historical input re-creation may require separate authorized access. [Full reproducibility notes](docs/REPRODUCIBILITY.md).
 
-- [Final Results and Findings](docs/FINAL_RESULTS_AND_FINDINGS.md)
-- [Excel model](excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx)
-- [Valuation report](reports/MIDEA_GROUP_FINAL_VALUATION_REPORT_R3.docx)
-- [Investment memo](reports/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf)
-- [Source registry](data/FINAL_SOURCE_REGISTRY_R3.csv)
+## Deliverables
 
-## Validation
+[Excel model](excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx) · [SQLite model](model/MIDEA_GROUP_FINAL_MODEL_R3.sqlite) · [Final report](reports/MIDEA_GROUP_FINAL_VALUATION_REPORT_R3.docx) · [Investment memo](reports/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf) · [Source registry](data/FINAL_SOURCE_REGISTRY_R3.csv)
 
-The public verifier recalculates 375 controls. A separate independent recalculator covers operating NWC, FCFF, WACC, DCF, reverse DCF, EV-to-equity, comparables, EPS, and accounting identities without importing production calculation functions. End-to-end, cleanroom, dashboard, and mutation evidence is retained under `verification/`.
+## Interpretation and citation
 
-## Assumptions and Limitations
-
-The DCF is terminal-value-heavy and sensitive to WACC, long-run growth, and FCFF assumptions. Peer comparability is imperfect, and EV/EBITDA is reference-only because a compatible Midea LTM EBITDA denominator was unavailable. Forecasts are scenarios, not predictions. See [Assumptions and Limitations](docs/assumptions_and_limitations.md).
-
-## Citation
-
-Citation metadata are available in [CITATION.cff](CITATION.cff). Version: R3.1.
-
-## Disclaimer
-
-This repository is an academic research project. It is not investment advice, an offer, or a recommendation to buy or sell securities.
+This is a retrospective, dated academic valuation and **not investment advice**. The valuation uses a source-bound operating forecast and assumptions, not a prediction of future market prices. Model accuracy is contingent on business performance, cash availability, accounting economics and the cost of capital. [Citation metadata](CITATION.cff).
