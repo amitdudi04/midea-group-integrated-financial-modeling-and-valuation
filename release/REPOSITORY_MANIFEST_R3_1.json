@@ -6,11 +6,6 @@
       "Bytes": 208
     },
     {
-      "Path": ".github/workflows/publish-r4-experimental.yml",
-      "SHA256": "ad230b35ed324233707955bcd49732079e9dffef3349aa3d21727281a9b1fb80",
-      "Bytes": 1893
-    },
-    {
       "Path": ".github/workflows/reconcile-release.yml",
       "SHA256": "04c59cd5ee00cd72e251c800422ef00d99b1d86a318929cdf920e811b0f1e1bb",
       "Bytes": 1644
@@ -42,8 +37,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "5760f1354af7cc3c3b6f095c63c8d40cd2612924e0e58e271661e00e03dbbd6e",
-      "Bytes": 7116
+      "SHA256": "5655e9c6644cf36963c230ee894829eacd67c1d57d2ba202244e07b52b7d2e46",
+      "Bytes": 7217
     },
     {
       "Path": "dashboard/app.py",
@@ -127,13 +122,13 @@
     },
     {
       "Path": "docs/REPRODUCIBILITY.md",
-      "SHA256": "adc74c7e60f3f2911194129173a0ca45f6d9dd5f78c59ad165fb21cf7eb1ac3b",
-      "Bytes": 4221
+      "SHA256": "2204a17da7b6e2ca3222d440485e17a4e719342e5d07ae1662cf7150bd0b9884",
+      "Bytes": 5250
     },
     {
       "Path": "docs/RESULTS.md",
-      "SHA256": "2d7f3cdbe1d8b7e1d6f642ae7d611171ec4d855ed16a4ab1437d425bc4965a98",
-      "Bytes": 22744
+      "SHA256": "d5f2f310ba7a3f3d8700ff01d71acc7a1670bada4b2f89a76d77ef96e2c3efe0",
+      "Bytes": 24210
     },
     {
       "Path": "docs/assets/forecast_revenue_fcff_r3.svg",
@@ -901,7 +896,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-05T20:40:33.770003+00:00",
+  "Generated_UTC": "2026-11-05T20:42:24.663910+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
