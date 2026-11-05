@@ -1,0 +1,9 @@
+Peer_Set,Peer_Count,Multiple,Median_Multiple,Midea_Denominator,Midea_Denominator_RMBm,Implied_CNY_Per_Share
+All six eligible,6,EV_Revenue,1.06339131,Revenue,459711.79400000,83.03888471
+All six eligible,6,EV_EBIT,11.23486794,EBIT,52911.06900000,97.30368050
+All six eligible,6,PE,17.57213856,Attributable_NI,44197.73400000,104.91688929
+All six eligible,6,PB,1.87567527,Book_Equity,232307.70600000,58.86295375
+Domestic core only,3,EV_Revenue,0.65497175,Revenue,459711.79400000,57.67516405
+Domestic core only,3,EV_EBIT,4.39913598,EBIT,52911.06900000,48.44380644
+Domestic core only,3,PE,11.04638751,Attributable_NI,44197.73400000,65.95398796
+Domestic core only,3,PB,1.64627932,Book_Equity,232307.70600000,51.66398737
