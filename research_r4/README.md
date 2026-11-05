@@ -94,6 +94,20 @@ Bear/Base/Bull do not merely change the WACC around a frozen FCFF. Each has a *c
 
 **These are researcher-selected assumptions, not estimates from a fitted scenario distribution.** They are connected through annual EBIT → NOPAT → D&A/capex → NWC and financial-investment movements → FCFF → dated DCF. They are **not a rebuilt GAAP/CAS three-statement forecast**: the full scenario balance sheets, distributions, debt roll-forward, tax accounting and changes to consolidated reserves have not been recomputed. Academic review must distinguish this operating cash-flow model from a full three-statement reconstruction.
 
+## Calculated R4 alternative outcomes
+
+The deterministic generator produces the following **provisional, conditional** equity values. They are not mechanically comparable to the R3 Bear/Base/Bull cases because the operating paths, discount rates, valuation dates and equity-bridge inputs differ.
+
+| Illustrative scenario | R4 operating/discount assumptions | Provisional CNY/share |
+|---|---|---:|
+| Bear | Challenged H2 operating growth, 8.5% WACC, 1.0% terminal growth, 25% deposit/treasury availability | **37.73** |
+| Base | 4% H2 revenue growth, 6.5% WACC, 2.0% terminal growth, 50% deposit/treasury availability | **125.19** |
+| Bull | 10% H2 revenue growth, 5.5% WACC, 2.5% terminal growth, 75% deposit/treasury availability | **269.62** |
+
+**The Bear result is deliberately severe**, reflecting an abrupt reduction in the negative operating-working-capital balance, which consumes cash in 2026. It must not be represented as a probability-calibrated downside price. Likewise, even the Bull case remains model-dependent.
+
+The 2026 actual half-year attributable net profit and CFO have been **recorded and published** for research transparency, but they do not by themselves determine unlevered operating FCFF or recurring EBIT for the remainder of 2026. No arbitrary conversion from net income into FCFF has been treated as a certified identity.
+
 ## Generated outputs and validation
 
 Run from the repository root:
