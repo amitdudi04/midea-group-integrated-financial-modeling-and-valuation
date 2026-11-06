@@ -6,6 +6,11 @@
       "Bytes": 208
     },
     {
+      "Path": ".github/workflows/publish-r41-once.yml",
+      "SHA256": "b198d5a20123e1e220e6029a4ab8aa962791b2e66ed246c55e9840a0e2aa15f4",
+      "Bytes": 2084
+    },
+    {
       "Path": ".github/workflows/reconcile-release.yml",
       "SHA256": "04c59cd5ee00cd72e251c800422ef00d99b1d86a318929cdf920e811b0f1e1bb",
       "Bytes": 1644
@@ -37,8 +42,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "5655e9c6644cf36963c230ee894829eacd67c1d57d2ba202244e07b52b7d2e46",
-      "Bytes": 7217
+      "SHA256": "ee4850366d2df3229b0657dfd3ad013acef4fd52c6f2801659cab2bef247444e",
+      "Bytes": 7544
     },
     {
       "Path": "dashboard/app.py",
@@ -301,19 +306,29 @@
       "Bytes": 54
     },
     {
+      "Path": "research_r4/EVIDENCE_AND_CLOSURE.md",
+      "SHA256": "cb691479f2bf55fde4990f33f70d42b1a296c95c73dc2035eef1f5c6c882fdc7",
+      "Bytes": 7660
+    },
+    {
       "Path": "research_r4/README.md",
       "SHA256": "5281fdf966251f67a2176e27c4ee20aabece5ce32c8de5184571a1ace144d90a",
       "Bytes": 12786
     },
     {
       "Path": "research_r4/assumptions.json",
-      "SHA256": "05c4842586011bc1b4c126dfee934c3ef7f37e1c53e51e07ce2c563c7aff5cb3",
-      "Bytes": 875
+      "SHA256": "29713d5dfe6974d2e88f508988ba6d0dbe8838a4c05d2aad0a125ff32ed55a46",
+      "Bytes": 1176
+    },
+    {
+      "Path": "research_r4/dated_three_statement_valuation.csv",
+      "SHA256": "92f0970ce72c57f9bab7ac0e7219ff9a348e7c3afc6cdc24934688c117009033",
+      "Bytes": 1588
     },
     {
       "Path": "research_r4/dated_valuation_scenarios.csv",
-      "SHA256": "bf88755f30555a6eb52cb227cffdd0fc65f55c4af53011abebc332249fceab58",
-      "Bytes": 1365
+      "SHA256": "f2fc90b0b77d1f8e89c6b74acedcff8fe9a968fd416aa11c08a3c403a95c0f81",
+      "Bytes": 1499
     },
     {
       "Path": "research_r4/ebit_bridge_from_r3.csv",
@@ -321,9 +336,24 @@
       "Bytes": 1519
     },
     {
+      "Path": "research_r4/interim_nwc_and_share_reconciliation.csv",
+      "SHA256": "89b3fe52adaf2b3e93619c4ca7de51101a2edb18121fead10a098aa65ed291ed",
+      "Bytes": 593
+    },
+    {
       "Path": "research_r4/linked_operating_fcff_scenarios.csv",
       "SHA256": "cd216f89fe84a5babc26ca586c58b58a22b11218d0faed88656cd63d9af55281",
       "Bytes": 3352
+    },
+    {
+      "Path": "research_r4/linked_three_statement_extension.py",
+      "SHA256": "6f320a21bc5b7b29c00c69154efa47312dad7f0f055306b3cbe4407cd124920d",
+      "Bytes": 12251
+    },
+    {
+      "Path": "research_r4/linked_three_statements_proforma.csv",
+      "SHA256": "42e6d470f5c794db80ff6ca00196beb8d0952aad21e2d128374f2a28f0c1ee3f",
+      "Bytes": 8550
     },
     {
       "Path": "research_r4/post_sample_nine_month_evaluation.csv",
@@ -342,13 +372,18 @@
     },
     {
       "Path": "research_r4/rebuild_exploratory_revision.py",
-      "SHA256": "a718202cdd354f65bf40e4d0810f9f916cb16331ce9c1a5ae307da37e1398e76",
-      "Bytes": 12426
+      "SHA256": "512bae9f513a37e883ddffb1f1221c56d8ecbbb336cc805898abc918bc1051a8",
+      "Bytes": 13350
     },
     {
       "Path": "research_r4/verify_exploratory_revision.py",
-      "SHA256": "d8effa9643a0579372a5d317c9ec703cf4dabe98a406b69d2d1548de5c72c322",
-      "Bytes": 6019
+      "SHA256": "034ba122dd7150b36a065136f076d2bfba750fde7592a3001985d78f544d35aa",
+      "Bytes": 6398
+    },
+    {
+      "Path": "research_r4/verify_linked_three_statement.py",
+      "SHA256": "7f04abe3d219f1d42b3432c3292b3bada7c85caf0e9a154595bce636adf85c6a",
+      "Bytes": 4226
     },
     {
       "Path": "tests/test_repository.py",
@@ -896,7 +931,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-05T20:42:24.663910+00:00",
+  "Generated_UTC": "2026-11-06T05:54:29.328630+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",

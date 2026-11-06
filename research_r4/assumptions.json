@@ -9,6 +9,10 @@
   "post_sample_source": "https://static.cninfo.com.cn/finalpage/2026-10-30/1225645132.PDF",
   "partial_2026_stub_days": 111,
   "partial_2026_stub_ratio": 0.3041095890410959,
+  "latest_pre_valuation_a_share_issued_ex_treasury": 6811460392,
+  "interim_june30_h_share_population": 650848500,
+  "sept10_indicative_total_shares_million": 7462.308892,
+  "sept10_shares_source": "https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000231771",
   "limitations": [
     "calendar_day_pro_rata_2026_FCFF_not_realized_stub",
     "June_balance_sheet_bridge_not_September_11",
