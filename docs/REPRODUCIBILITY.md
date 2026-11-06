@@ -46,9 +46,11 @@ The accepted R3 model remains the historical authority. A distinct [R4 research 
 ```bash
 python -B research_r4/rebuild_exploratory_revision.py
 python -B research_r4/verify_exploratory_revision.py
+python -B research_r4/linked_three_statement_extension.py
+python -B research_r4/verify_linked_three_statement.py
 ```
 
-CI executes both commands and checks that generated tracked files reproduce byte-for-byte without unstaged or untracked outputs. The R4 source script uses the pre-valuation CAS half-year disclosure; the 30 October nine-month results enter only its separate post-sample diagnostic. The 2026 remainder FCFF is **pro-rated**, and its June 2026 net-financial-assets bridge does not establish exact 11 September account balances. R4 is a linked operating/FCFF forecast, **not a complete replacement three-statement model**.
+CI executes all four research commands and checks that generated tracked files reproduce byte-for-byte without unstaged or untracked outputs. The R4 source script uses the pre-valuation CAS half-year disclosure; the 30 October nine-month results enter only its separate post-sample diagnostic. The 2026 remainder FCFF is **pro-rated**, and its June 2026 net-financial-assets bridge does not establish exact 11 September account balances. R4 is a linked operating/FCFF forecast, **not a complete replacement three-statement model**.
 
 ## What remains unverified from a fresh clone
 
