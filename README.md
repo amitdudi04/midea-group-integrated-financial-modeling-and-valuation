@@ -46,7 +46,7 @@ A [dated valuation and post-sample research revision](research_r4/README.md) exa
 
 **R4 is exploratory and not the accepted R3 model.** Its outputs are independently checked in CI. It constructs linked annual operating FCFF forecasts but not a complete replacement three-statement model; 2026 stub FCFF is seasonality-agnostic and the valuation-date net-debt/treasury bridge remains provisional. The original R3 valuation outputs remain intentionally unchanged and separately verifiable. R4 is independently regenerated and checked on each CI run; its dated valuation remains provisional.
 
-For the further source-anchored June 2026 accounting and share-count reconciliation, see the [R4.1 research appendix](research_r4/EVIDENCE_AND_CLOSURE.md) and its [verified linked financial statements](research_r4/linked_three_statements_proforma.csv). This is a transparent aggregate three-statement pro forma, not a certified September 2026 company balance sheet. The accepted R3 forecast and valuation remain unchanged.
+For the further source-anchored June 2026 accounting and share-count reconciliation, see the [R4.1 research appendix](research_r4/EVIDENCE_AND_CLOSURE.md) and its [verified linked financial statements](research_r4/linked_three_statements_proforma.csv). This is a transparent aggregate three-statement pro forma, not a certified September 2026 company balance sheet. All three research versions remain separately identified and independently auditable. The accepted R3 forecast and valuation remain unchanged.
 
 ## Academic research documents
 
