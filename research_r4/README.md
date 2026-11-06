@@ -108,6 +108,27 @@ The deterministic generator produces the following **provisional, conditional** 
 
 The 2026 actual half-year attributable net profit and CFO have been **recorded and published** for research transparency, but they do not by themselves determine unlevered operating FCFF or recurring EBIT for the remainder of 2026. No arbitrary conversion from net income into FCFF has been treated as a certified identity.
 
+## R4.1 — source-anchored linked accounting extension
+
+A further [source and assumption reconciliation](EVIDENCE_AND_CLOSURE.md) extends R4 to **15 linked pro-forma income, cash flow and balance sheet periods** beginning from the 30 June 2026 consolidated statements. The 11 September cash and borrowing balances are explicitly projected using a source-anchored but assumption-dependent cash-flow and financing bridge. The research treats a September share denominator as an **indicative** exchange-filing sensitivity, not as a substitute for the original R3 market population.
+
+The independently reproduced conditional equity values, using the sourced/estimated September positions and 2031 normalized continuing value, are:
+
+| Scenario | Earlier R4 (R3 denominator) | R4.1 linked forecast (indicative pre-date share denominator) |
+|---|---:|---:|
+| Bear | CNY 37.73 | **CNY 29.66** |
+| Base | CNY 125.19 | **CNY 117.88** |
+| Bull | CNY 269.62 | **CNY 261.05** |
+
+The changes do **not** imply that R4.1 is more likely to predict Midea’s share price. The calculations use **different operating cash-flow timing and financial-stock conventions**. R4.1 is an *aggregate model of financial statements*, not an issuer-certified full line-item projection.
+
+```bash
+python -B research_r4/linked_three_statement_extension.py
+python -B research_r4/verify_linked_three_statement.py
+```
+
+The resulting [linked pro-forma statements](linked_three_statements_proforma.csv), [dated valuation](dated_three_statement_valuation.csv), and [June operating-NWC/share reconciliation](interim_nwc_and_share_reconciliation.csv) are supplied as separate research evidence. The date-bridge uncertainty, initial June 2026 operating account classification assumptions, current financing constraints and final share denominator remain material reservations.
+
 ## Generated outputs and validation
 
 Run from the repository root:
