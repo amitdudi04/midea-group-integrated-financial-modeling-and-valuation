@@ -19,6 +19,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Reproduce and independently verify experimental R4 and R4.1
+        run: |
+          python -B research_r4/rebuild_exploratory_revision.py
+          python -B research_r4/verify_exploratory_revision.py
+          python -B research_r4/linked_three_statement_extension.py
+          python -B research_r4/verify_linked_three_statement.py
+          git diff --exit-code -- research_r4/
+          test -z "$(git ls-files --others --exclude-standard research_r4/)"
       - name: Rebuild manifest and current academic document bindings
         run: python -B verification/refresh_public_manifest.py
       - name: Install model verification dependencies
@@ -30,6 +38,8 @@ jobs:
           python -B verification/independent_model_recalculator.py
           python -B verification/supplementary_stress_verifier.py
           python -B verification/end_to_end_verifier.py
+          python -B research_r4/verify_exploratory_revision.py
+          python -B research_r4/verify_linked_three_statement.py
       - name: Publish verified manifest and authority without rewriting evidence
         run: |
           git config user.name "github-actions[bot]"
