@@ -90,6 +90,12 @@ def run():
   ok(b["Bridge_Provisional"],adjustment,"provisional bridge")
   ok(x["Bridge_Adjustment_Provisional"],adjustment,"provisional bridge again")
   ok(x["Per_Share_Provisional"],(ev+adjustment)/7402.51366,"per share")
+  # Published Sep 10 A-share register, with H shares at last-known June 30
+  # population. Indicative only; H treasury and option dilution are uncertain.
+  latest=(6811460392+650848500)/1_000_000
+  ok(x["Sept10_Indicative_Shares_Million"],latest,"dated shares")
+  ok(x["Per_Share_Sept10_Indicative"],(ev+adjustment)/latest,
+     "pre-valuation-date indicative share population")
   assert x["Source_Limitation"].startswith("2026_STUB_ESTIMATED")
  for row in post:
   metric=row["Metric"]; m="IS_OPERATING_REVENUE" if metric=="Revenue" else "IS_ATTRIBUTABLE_NI"
