@@ -6,19 +6,14 @@
       "Bytes": 208
     },
     {
-      "Path": ".github/workflows/publish-r41-once.yml",
-      "SHA256": "b198d5a20123e1e220e6029a4ab8aa962791b2e66ed246c55e9840a0e2aa15f4",
-      "Bytes": 2084
-    },
-    {
       "Path": ".github/workflows/reconcile-release.yml",
       "SHA256": "04c59cd5ee00cd72e251c800422ef00d99b1d86a318929cdf920e811b0f1e1bb",
       "Bytes": 1644
     },
     {
       "Path": ".github/workflows/verify.yml",
-      "SHA256": "f578430d5574615043ee89e6841de57e8226ab70d8ee5a896edfea4d73d5d134",
-      "Bytes": 953
+      "SHA256": "5d709c8d98869af313f7cd58b61c29eda03da4d8911477e2025d7c97a04c262a",
+      "Bytes": 1092
     },
     {
       "Path": ".gitignore",
@@ -42,8 +37,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "ee4850366d2df3229b0657dfd3ad013acef4fd52c6f2801659cab2bef247444e",
-      "Bytes": 7544
+      "SHA256": "26704403de812eda5cdf3fda14faa62c2f00f268e94507ce142600cc814f65f1",
+      "Bytes": 7641
     },
     {
       "Path": "dashboard/app.py",
@@ -117,8 +112,8 @@
     },
     {
       "Path": "docs/LIMITATIONS.md",
-      "SHA256": "726742ac179e8da70ab124f9793c8aa620d8f7b3e3d6db63a0cc93aec05d6ba6",
-      "Bytes": 6245
+      "SHA256": "c3bf1bf6cfe9b72f8653418ce08ce3d02378e4aeeddebb9025e4d70ab97b1491",
+      "Bytes": 8271
     },
     {
       "Path": "docs/METHODOLOGY.md",
@@ -127,13 +122,13 @@
     },
     {
       "Path": "docs/REPRODUCIBILITY.md",
-      "SHA256": "2204a17da7b6e2ca3222d440485e17a4e719342e5d07ae1662cf7150bd0b9884",
-      "Bytes": 5250
+      "SHA256": "9264bbfcc48dc6b45bcc638253611cf7c33978086506602509c721dee5f190bf",
+      "Bytes": 5376
     },
     {
       "Path": "docs/RESULTS.md",
-      "SHA256": "d5f2f310ba7a3f3d8700ff01d71acc7a1670bada4b2f89a76d77ef96e2c3efe0",
-      "Bytes": 24210
+      "SHA256": "c220a60990634107a68d9e70d69f195adbe2c814774566e891a360015ac531e8",
+      "Bytes": 25397
     },
     {
       "Path": "docs/assets/forecast_revenue_fcff_r3.svg",
@@ -312,8 +307,8 @@
     },
     {
       "Path": "research_r4/README.md",
-      "SHA256": "5281fdf966251f67a2176e27c4ee20aabece5ce32c8de5184571a1ace144d90a",
-      "Bytes": 12786
+      "SHA256": "3eac76fc55a765c3a2628ec86c0676253207616f0a490550ee648fe63db46d53",
+      "Bytes": 14621
     },
     {
       "Path": "research_r4/assumptions.json",
@@ -931,7 +926,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-06T05:54:29.328630+00:00",
+  "Generated_UTC": "2026-11-06T05:57:29.136938+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
