@@ -16,6 +16,8 @@ jobs:
       - run: python -B verification/supplementary_stress_verifier.py
       - run: python -B research_r4/rebuild_exploratory_revision.py
       - run: python -B research_r4/verify_exploratory_revision.py
+      - run: python -B research_r4/linked_three_statement_extension.py
+      - run: python -B research_r4/verify_linked_three_statement.py
       - name: Ensure tracked R4 numerical outputs reproduce byte-for-byte
         run: |
           git diff --exit-code -- research_r4/
