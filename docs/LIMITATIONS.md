@@ -41,3 +41,15 @@ The formula-linked Excel workbook and SQLite database are numerical artifacts. P
 The base DCF of **CNY 294.51/share** differs materially from the accepted six-peer central relative valuation of **CNY 90.17/share** and the September 2026 reference price of **CNY 86.26/share**. This dispersion is itself a reason for **high valuation risk and low-to-medium confidence**. No mechanical average or claim of certain undervaluation is warranted.
 
 For the analytical construction see [Methodology](METHODOLOGY.md), for complete model outputs see [Results](RESULTS.md), and for checks see [Reproducibility](REPRODUCIBILITY.md).
+
+## R4.1 financial projection boundaries
+
+The separate [R4.1 pro-forma analysis](../research_r4/EVIDENCE_AND_CLOSURE.md) is designed to correct the **internal linkage** of operating income, cash flows, financing, investment stocks and balance-sheet identities. Its 15 scenario-year financial forecasts reconcile, but their relationship to future reported Midea financial statements is assumption-dependent. In particular:
+
+- The **June 2026 consolidated total assets, total liabilities and equity** are reported data; the June economically operating component of mixed current assets, current liabilities and taxes is allocated with *historical R3 ratios*, not directly established by June footnote classification.
+- The **11 September 2026** cash, borrowing and working-capital stocks are scenario-model estimates; no exact 11 September consolidated financial position was published. The pro forma cannot independently certify a market-date EV-to-equity bridge.
+- The indicative pre-valuation share denominator combines the exchange's 10 September A-share movement data with the last reported H-share count, not a fully audited and diluted September A/H share reconciliation.
+- The equity value is sensitive to **assumed cash reserves, financing access, payout policy, interest rate, term-deposit and treasury-product distributability**. Accounting identity does not guarantee debt capacity.
+- The full issuer account taxonomy, deferred taxes, restricted cash and leases, financial-services separate balances, share schemes, goodwill adjustments, OCI and minority-interest changes are not projected at statutory disclosure detail. The result is a simplified *aggregate* three-statement model rather than a complete audited forecast.
+
+The original R3 and first R4 result vectors are retained as independent historical experimental versions. Values from R4.1 should be described as **conditional modeled valuations** and should never replace a sourced issuer market quotation or a fully confirmed valuation-date balance sheet.
