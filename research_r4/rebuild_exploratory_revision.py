@@ -50,6 +50,13 @@ H1_DEBT_PROVISIONAL=80327.263
 OPERATING_CASH_RESERVE_RATIO=.08285274
 TAX=.152566
 shares=7402.51366
+# Latest independently identifiable A-share register published Sep 10 (before
+# valuation date), plus the 650,848,500 H shares disclosed June 30.
+# H-class treasury movements between June and September remain unverified.
+SEPT10_A_ISSUED_EX_TREASURY=6811460392
+JUNE30_H_SHARES=650848500
+SEPT10_INDICATIVE_TOTAL_OUTSTANDING_M=(SEPT10_A_ISSUED_EX_TREASURY+JUNE30_H_SHARES)/1_000_000
+SEPT10_SOURCE="https://www1.hkexnews.hk/search/titlesearch.xhtml?category=0&lang=EN&market=SEHK&stockId=1000231771"
 scenarios={
  "BEAR":{"H2_yoy":-.06,"growth":[-.03,.00,.01,.015],
          "margins":[.075,.070,.069,.069,.070],"da":.018,
@@ -197,6 +204,8 @@ def main():
      "Bridge_Adjustment_Provisional":fmt(bridge),
      "Equity_Value_Provisional":fmt(equity),"Shares_Million_R3":fmt(shares),
      "Per_Share_Provisional":fmt(equity/shares),
+     "Sept10_Indicative_Shares_Million":fmt(SEPT10_INDICATIVE_TOTAL_OUTSTANDING_M),
+     "Per_Share_Sept10_Indicative":fmt(equity/SEPT10_INDICATIVE_TOTAL_OUTSTANDING_M),
      "Source_Limitation":"2026_STUB_ESTIMATED;JUNE_BRIDGE_PROVISIONAL;NOT_FULL_THREE_STATEMENT"})
   date_bridge.append({"Scenario":s,"H1_Cash_Equivalent_RMBm":INTERIM["cash_equivalents_2026_06"],
     "Operating_Cash_Reserve_Proxy":fmt(min_reserve),"Excess_Cash_Proxy":fmt(excess),
@@ -234,6 +243,10 @@ def main():
   "original_operating_cutoff":"2026-08-20",
   "interim_source":SOURCES["interim_CAS"],"post_sample_source":SOURCES["nine_month_CAS"],
   "partial_2026_stub_days":DAYS_2026,"partial_2026_stub_ratio":STUB,
+  "latest_pre_valuation_a_share_issued_ex_treasury":SEPT10_A_ISSUED_EX_TREASURY,
+  "interim_june30_h_share_population":JUNE30_H_SHARES,
+  "sept10_indicative_total_shares_million":SEPT10_INDICATIVE_TOTAL_OUTSTANDING_M,
+  "sept10_shares_source":SEPT10_SOURCE,
   "limitations":["calendar_day_pro_rata_2026_FCFF_not_realized_stub",
   "June_balance_sheet_bridge_not_September_11","H1_debt_June_2026_borrowings_80327_263_not_September_date",
   "Treasury_availability_assumed_not_proven",
