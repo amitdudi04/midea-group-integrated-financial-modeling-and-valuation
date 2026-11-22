@@ -6,6 +6,11 @@
       "Bytes": 208
     },
     {
+      "Path": ".github/workflows/publish-corrected-r41-once.yml",
+      "SHA256": "df9e616533714685449adffe34550c37e848b6c382217d300891677f751293db",
+      "Bytes": 1980
+    },
+    {
       "Path": ".github/workflows/reconcile-release.yml",
       "SHA256": "b3b40ba466260b6ea3ca8aca76e11125ec81ab69a53c7068b504d527b91036c9",
       "Bytes": 2245
@@ -37,8 +42,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "0df7664a8d16214fd93096f9fba8fff5a8bdd18023fba1e129059cdf9d7b7183",
-      "Bytes": 7727
+      "SHA256": "d4f6e075d5fa621d4e7278b3ae891875f9671100953f62647941bb0eee2aeb4f",
+      "Bytes": 7828
     },
     {
       "Path": "dashboard/app.py",
@@ -317,8 +322,8 @@
     },
     {
       "Path": "research_r4/dated_three_statement_valuation.csv",
-      "SHA256": "92f0970ce72c57f9bab7ac0e7219ff9a348e7c3afc6cdc24934688c117009033",
-      "Bytes": 1588
+      "SHA256": "2adefdd7587c394b7c93aceb6c6b2ce4b030acff9b0ae1a6cf8143d5b52bded8",
+      "Bytes": 1659
     },
     {
       "Path": "research_r4/dated_valuation_scenarios.csv",
@@ -342,13 +347,13 @@
     },
     {
       "Path": "research_r4/linked_three_statement_extension.py",
-      "SHA256": "6f320a21bc5b7b29c00c69154efa47312dad7f0f055306b3cbe4407cd124920d",
-      "Bytes": 12251
+      "SHA256": "3bca226a0547a66171ab336384cb9bbeeaeab6fb2bf4ba0d717e5926ac58100e",
+      "Bytes": 12490
     },
     {
       "Path": "research_r4/linked_three_statements_proforma.csv",
-      "SHA256": "42e6d470f5c794db80ff6ca00196beb8d0952aad21e2d128374f2a28f0c1ee3f",
-      "Bytes": 8550
+      "SHA256": "19d34c49724987ac23cc173b3b535a2539f48531fd7f2881f2966e81722b45e5",
+      "Bytes": 8764
     },
     {
       "Path": "research_r4/post_sample_nine_month_evaluation.csv",
@@ -377,8 +382,8 @@
     },
     {
       "Path": "research_r4/verify_linked_three_statement.py",
-      "SHA256": "7f04abe3d219f1d42b3432c3292b3bada7c85caf0e9a154595bce636adf85c6a",
-      "Bytes": 4226
+      "SHA256": "51247ed40c46b189cb964cce01e4197e558451ae622dbaaaae5ccb6b76496779",
+      "Bytes": 5024
     },
     {
       "Path": "tests/test_repository.py",
@@ -926,7 +931,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-06T05:59:29.845697+00:00",
+  "Generated_UTC": "2026-11-22T07:02:05.850722+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
