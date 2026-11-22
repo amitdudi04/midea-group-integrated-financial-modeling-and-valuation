@@ -80,7 +80,7 @@ python -B research_r4/linked_three_statement_extension.py
 python -B research_r4/verify_linked_three_statement.py
 ```
 
-The main financial verifier tests **375** controls. The additional R4 scripts recalculate conditional research outputs; source-availability and future-economics claims are **not** verified merely by a passing CI run. Original historical third-party snapshots are not all redistributed.
+The main financial verifier tests **375** controls. The release manifest binds the final research files and is independently checked in CI. The additional R4 scripts recalculate conditional research outputs; source-availability and future-economics claims are **not** verified merely by a passing CI run. Original historical third-party snapshots are not all redistributed.
 
 **Primary deliverables:** [Excel model](excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx) · [SQLite file](model/MIDEA_GROUP_FINAL_MODEL_R3.sqlite) · [Final report](reports/MIDEA_GROUP_FINAL_VALUATION_REPORT_R3.docx) · [Investment memo](reports/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf) · [Source registry](data/FINAL_SOURCE_REGISTRY_R3.csv).
 
