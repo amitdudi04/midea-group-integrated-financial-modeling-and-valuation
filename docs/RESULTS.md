@@ -323,8 +323,8 @@ A further [R4.1 accounting-linked extension](../research_r4/EVIDENCE_AND_CLOSURE
 
 | Conditional R4.1 illustration | CNY/share |
 |---|---:|
-| Bear | 29.66 |
-| Base | 117.88 |
-| Bull | 261.05 |
+| Bear | 30.51 |
+| Base | 120.08 |
+| Bull | 265.13 |
 
 All 15 forecast balance sheets and cash-flow roll-forwards pass an independent arithmetic verifier, as do the three modeled September 11 financial-stock bridges. The 2026 operating NWC split within some aggregated source accounts relies on prior-period classification ratios; cash and borrowing movements and the 11 September share denominator also involve assumptions. **These are not issuer-published September financial statements and the R4.1 price estimates are not certified fair values.** Source basis, valuation timing, account limitations and dated share-population evidence are recorded in the [R4.1 evidence register](../research_r4/EVIDENCE_AND_CLOSURE.md).
