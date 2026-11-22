@@ -1,95 +1,87 @@
 # Midea Group — Integrated Financial Modeling and Valuation
 
-**An academic, source-traceable study of Midea Group (000333.SZ)**  
-**Operating information cutoff:** 20 August 2026 · **Valuation market-data date:** 11 September 2026 · **Forecast:** 2026E–2030E
+**Research scope:** Midea Group (000333.SZ) · company information cutoff **20 August 2026** · market reference **11 September 2026** · forecast **2026E–2030E**.
 
-## Research objective
+## Research question
 
-What equity value follows from a consolidated five-year operating forecast, economically classified cash flows, a market-based discount rate and explicit adjustments for non-operating assets and financing? The project compares an FCFF discounted cash-flow valuation with period-aligned trading multiples and examines what the observed price implies.
+What value follows from an integrated consolidated three-statement forecast, operating free cash flow, a market-based cost of capital, and a separately reconciled enterprise-to-equity bridge? How do those values compare with listed peers and the observed share price?
 
-The accepted **R3 underlying model and financial outputs are unchanged**. New valuation sensitivities are explicitly labeled supplementary and do not modify the integrated statements, workbook, SQLite outputs or historical research release.
+**Study structure:** **R3 is the accepted historical model.** R4 and R4.1 are subsequent, explicitly conditional economic re-examinations. They do not replace the original R3 Excel workbook, SQLite model, source registry, financial schedules or research outputs.
 
-## Accepted valuation results
+## Principal findings
 
-| Measure | Accepted R3 value |
+| Measure | Accepted R3 result |
 |---|---:|
-| Observed 11 September 2026 price | CNY 86.26/share |
-| Base WACC | 5.2666% |
-| 2026E / 2030E revenue | RMB 485,985.0m / 664,184.6m |
-| 2026E / 2030E FCFF | RMB 43,472.7m / 63,639.6m |
-| DCF bear / base / bull | CNY 117.44 / **294.51** / 548.94 |
-| Six-peer comparables low / central / high | CNY 76.99 / **90.17** / 99.21 |
-| Base terminal value as share of enterprise value | **88.8%** |
-| Interpretation | High valuation risk; low-to-medium conviction |
+| Market reference price, 11 September 2026 | CNY **86.26** per share |
+| Base WACC / terminal growth | **5.2666% / 2.5%** |
+| 2026E → 2030E revenue | RMB **485,985m → 664,185m** |
+| 2026E → 2030E FCFF | RMB **43,473m → 63,640m** |
+| DCF: Bear / Base / Bull | CNY **117.44 / 294.51 / 548.94** |
+| Six-peer relative valuation: low / central / high | CNY **76.99 / 90.17 / 99.21** |
+| Discounted terminal value / base enterprise value | **88.8%** |
 
-The DCF and six-peer methods disagree substantially. Their dispersion, heavy terminal-value dependence, and assumptions concerning sustained negative operating working capital and treasury-asset availability **limit confidence**. The DCF's large model-implied upside should not be presented as an assured trading opportunity.
+**Interpretation:** The R3 DCF is far above the market and peer valuations, but this is **not reliable evidence of undervaluation**. Its result depends strongly on discount rate, continuing value, persistently favorable working-capital financing and the economic availability of treasury investments. The appropriate conclusion is **high valuation uncertainty and low-to-medium confidence**, not an investment recommendation.
 
-## Supplementary robustness and peer-selection diagnostics
+## Subsequent economic reassessment
 
-These are *one-variable or limited-combination accounting sensitivities*, not fully recalculated three-statement scenarios and not replacements for the accepted R3 prices.
+The R4 study uses the interim report released before the 11 September valuation date, rebuilds normalized 2031 free cash flow and separates the October nine-month report as *post-sample* evidence. R4.1 further builds **15 linked aggregate pro-forma statement periods**, an indicative share-population adjustment and a modeled September equity bridge.
 
-| Diagnostic | Illustrative CNY/share |
-|---|---:|
-| Accepted base DCF | 294.51 |
-| Base FCFF with +100 bps WACC | 219.84 |
-| No future negative-NWC cash release (with matching terminal continuation removed) | 234.67 |
-| 50% modeled availability haircut on fixed-income treasury products | 284.02 |
-| High WACC + half NWC release + half treasury availability | 156.85 |
+| Conditional study result | Bear | Base | Bull |
+|---|---:|---:|---:|
+| Accepted **R3** (historical convention) | 117.44 | 294.51 | 548.94 |
+| **R4** standalone operating-FCFF sensitivity | 37.73 | 125.19 | 269.62 |
+| **R4.1** date-corrected linked pro forma | **30.51** | **120.08** | **265.13** |
 
-Domestic-only core-peer medians produce lower indicative per-share values: EV/Revenue **57.68**, EV/EBIT **48.44**, P/E **65.95**, and P/B **51.66**, compared with the corresponding six-peer estimates **83.04**, **97.30**, **104.92**, and **58.86**. Neither peer selection is automatically correct; the difference measures benchmark sensitivity.
+All values are CNY/share. **These rows do not share the same assumptions or valuation-date balance sheet and must not be interpreted as successive accuracy improvements.** R4.1 discounts the post-11-September portion of 2026 cash flow using **111/365 years**, while estimating its share of June–December cash flow separately using **111/184**. R4.1's September balance sheet, treasury availability and share denominator are **modeled/indicative**, not exact issuer disclosures.
 
-The numerical workpapers are [valuation stress tests](workpapers/SUPPLEMENTARY_VALUATION_STRESSES_R3_1.csv) and [domestic-core peer sensitivity](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv). The accepted model is not overwritten. The driver register's Lower/Central/Upper columns represent named scenario paths rather than guaranteed ascending statistical bounds; 30 nonmonotonic numeric rows remain disclosed and unchanged.
+[Detailed revision and scenario definitions](research_r4/README.md) · [R4.1 source dates and unresolved evidence](research_r4/EVIDENCE_AND_CLOSURE.md) · [R4.1 calculated values](research_r4/dated_three_statement_valuation.csv)
 
-## Separate experimental revision (R4)
+The retained [WACC/NWC/treasury stress workpaper](workpapers/SUPPLEMENTARY_VALUATION_STRESSES_R3_1.csv) and [domestic-only peer comparison](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv) are diagnostics, not replacement forecasts.
 
-A [dated valuation and post-sample research revision](research_r4/README.md) examines the September 2026 valuation timing, normalized 2031 free cash flow, publicly available August interim figures, direct investment-income exclusions, October post-sample forecast error, and alternative operating cash-flow scenarios.
+## Academic documentation
 
-**R4 is exploratory and not the accepted R3 model.** Its outputs are independently checked in CI. It constructs linked annual operating FCFF forecasts but not a complete replacement three-statement model; 2026 stub FCFF is seasonality-agnostic and the valuation-date net-debt/treasury bridge remains provisional. The original R3 valuation outputs remain intentionally unchanged and separately verifiable. R4 is independently regenerated and checked on each CI run; its dated valuation remains provisional.
+The four principal documents have distinct purposes:
 
-For the further source-anchored June 2026 accounting and share-count reconciliation, see the [R4.1 research appendix](research_r4/EVIDENCE_AND_CLOSURE.md) and its [verified linked financial statements](research_r4/linked_three_statements_proforma.csv). This is a transparent aggregate three-statement pro forma, not a certified September 2026 company balance sheet. All three research versions remain separately identified and independently auditable; corrected valuation-date discounting uses calendar years rather than cash-flow allocation fractions. The resulting corrected R4.1 conditional base value is CNY 120.08/share. The accepted R3 forecast and valuation remain unchanged.
+1. **[Methodology](docs/METHODOLOGY.md):** source dates, three-statement construction, NWC, FCFF, WACC, DCF and comparables.
+2. **[Results](docs/RESULTS.md):** accepted R3 empirical outputs, independent reconciliations, sensitivities and clearly separated R4/R4.1 results.
+3. **[Limitations](docs/LIMITATIONS.md):** terminal-value dependence, execution of economic assumptions, cash availability, scenario comparability and missing point-in-time data.
+4. **[Reproducibility](docs/REPRODUCIBILITY.md):** environment, exact commands, artifact integrity and boundaries of independent reproduction.
 
-## Academic research documents
+[AI-assistance disclosure](AI_ASSISTANCE_DISCLOSURE.md) · [Citation](CITATION.cff) · [Data and redistribution policy](data/README.md)
 
-1. [Methodology](docs/METHODOLOGY.md) — data cutoff, integrated forecasts, working-capital classification, WACC, DCF, equity bridge and peer-selection conventions.
-2. [Results](docs/RESULTS.md) — full accepted financial tables, economic interpretation and separately qualified supplementary diagnostics.
-3. [Limitations](docs/LIMITATIONS.md) — economic judgments, terminal-value risk, non-operating-asset availability, peer comparability and data-provenance limits.
-4. [Reproducibility](docs/REPRODUCIBILITY.md) — saved artifacts, independent calculation checks and distinctions between model arithmetic and historical source recreation.
+## Research artifacts
 
-The [AI-assistance disclosure](AI_ASSISTANCE_DISCLOSURE.md) describes the role and limitations of development aids. Source inputs, driver schedules and audit evidence retain their names in the technical folders rather than competing with the academic narrative.
-
-## Research artifact map
-
-| Directory | Role |
+| Folder | Purpose |
 |---|---|
-| `data/` | Source registry, original accessible methodological source files and processed financial inputs |
-| `model/` | R3 financial schedules, WACC, FCFF, three scenario DCFs, reverse DCF, peer valuation, SQLite authority |
-| `workpapers/` | Capital-structure, ERP, cash taxonomy, working-capital and supplementary stress calculations |
-| `excel/` | Formula-linked institutional financial workbook |
-| `dashboard/` | SQLite-backed, read-only Streamlit user interface |
-| `reports/` | Final valuation report and short investment memo |
-| `verification/` | Published calculation verifiers, source integrity checks, retained historical validation evidence |
-| `release/` | Repository hashes, release authority and historically dated attestations |
+| `data/` | Source registry and available processed historical inputs |
+| `model/` | Authoritative R3 schedules, valuation CSVs, assumptions and SQLite model |
+| `workpapers/` | Capital cost, cash, NWC, peer and sensitivity calculations |
+| `excel/` and `reports/` | Formula-linked workbook, final R3 valuation report and investment memo |
+| `research_r4/` | Independent later research code, generated tables and evidentiary boundaries |
+| `dashboard/` | Read-only SQLite-backed Streamlit research viewer |
+| `verification/` and `release/` | Independent controls, integrity hashes and archived release evidence |
 
-## Reproduce public computations
+Historical audit, attack-test and authority files are **retained deliberately** for traceability; they are supporting evidence, not additional academic reports.
 
-From a Python 3.11+ environment:
+## Verify the released work
+
+Python 3.12 is used in GitHub Actions. From the repository root:
 
 ```bash
 python -m pip install -r requirements.txt
 python -B -m pytest -p no:cacheprovider tests/test_repository.py -q
 python -B verification/final_calculation_verifier.py
 python -B verification/independent_model_recalculator.py
-python -B verification/end_to_end_verifier.py
 python -B verification/supplementary_stress_verifier.py
-streamlit run dashboard/app.py
+python -B verification/end_to_end_verifier.py
+python -B research_r4/rebuild_exploratory_revision.py
+python -B research_r4/verify_exploratory_revision.py
+python -B research_r4/linked_three_statement_extension.py
+python -B research_r4/verify_linked_three_statement.py
 ```
 
-The original R3 model verification includes **375 controls**. The supplemental verifier independently recomputes the diagnostic cash-flow/peer tables. All original source archives are not redistributed; exact historical input re-creation may require separate authorized access. [Full reproducibility notes](docs/REPRODUCIBILITY.md).
+The main financial verifier tests **375** controls. The additional R4 scripts recalculate conditional research outputs; source-availability and future-economics claims are **not** verified merely by a passing CI run. Original historical third-party snapshots are not all redistributed.
 
-## Deliverables
+**Primary deliverables:** [Excel model](excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx) · [SQLite file](model/MIDEA_GROUP_FINAL_MODEL_R3.sqlite) · [Final report](reports/MIDEA_GROUP_FINAL_VALUATION_REPORT_R3.docx) · [Investment memo](reports/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf) · [Source registry](data/FINAL_SOURCE_REGISTRY_R3.csv).
 
-[Excel model](excel/MIDEA_GROUP_INSTITUTIONAL_MODEL_R3.xlsx) · [SQLite model](model/MIDEA_GROUP_FINAL_MODEL_R3.sqlite) · [Final report](reports/MIDEA_GROUP_FINAL_VALUATION_REPORT_R3.docx) · [Investment memo](reports/MIDEA_GROUP_INVESTMENT_MEMO_R3.pdf) · [Source registry](data/FINAL_SOURCE_REGISTRY_R3.csv)
-
-## Interpretation and citation
-
-This is a retrospective, dated academic valuation and **not investment advice**. The valuation uses a source-bound operating forecast and assumptions, not a prediction of future market prices. Model accuracy is contingent on business performance, cash availability, accounting economics and the cost of capital. [Citation metadata](CITATION.cff).
+*Academic research only. Valuation outputs are conditional on accounting classification, investment availability, financing and long-run operating assumptions; they are not investment advice.*

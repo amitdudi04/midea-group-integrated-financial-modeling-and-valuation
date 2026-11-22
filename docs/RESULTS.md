@@ -15,7 +15,7 @@ This project develops an integrated three-statement forecast and valuation of **
 | Confidence | LOW TO MEDIUM |
 | Final interpretation | DCF indicates upside, but confidence is low to medium |
 
-The base DCF sits materially above both the market price and the comparable-company range. That result is a **model-implied valuation**, not a guaranteed target price. Approximately 88.8% of base enterprise value comes from terminal value, and the comparables cluster much closer to the market price. The evidence therefore supports an informative upside signal with high valuation risk rather than a high-conviction claim of undervaluation.
+The base DCF sits materially above both the market price and the comparable-company range. That result is a **model-implied valuation**, not a guaranteed target price. Approximately 88.8% of base enterprise value comes from terminal value, and the comparables cluster much closer to the market price. The observed DCF–market gap is strongly assumption-dependent and does not independently establish undervaluation.
 
 ![Base forecast](assets/forecast_revenue_fcff_r3.svg)
 
@@ -250,11 +250,11 @@ See [Reproducibility](REPRODUCIBILITY.md) and the [data policy](../data/README.m
 
 ## 22. Interactive Dashboard
 
-The Streamlit dashboard opens locally at `http://localhost:8501`. It reads the certified SQLite model in read-only mode, offers governed Bear/Base/Bull scenarios, and displays forecast, WACC, DCF, sensitivity, reverse DCF, comparables, synthesis, and model-verification sections. It does not imply public hosting.
+The Streamlit dashboard can be run locally at `http://localhost:8501`. It reads the release-bound SQLite research model in read-only mode, offers governed Bear/Base/Bull scenarios, and displays forecast, WACC, DCF, sensitivity, reverse DCF, comparables, synthesis, and model-verification sections. It does not imply public hosting.
 
 ## 23. Validation and Independent Recalculation
 
-The public financial verifier executes 375 controls covering statements, EPS, operating NWC, FCFF, WACC, DCF, EV-to-equity, comparables, and authority consistency. A separate independent recalculator does not import production calculation functions. End-to-end verification checks repository integrity and external-path independence. The live-dashboard audit confirms scenario isolation, read-only data access, zero material mismatches, and cleanroom reproduction.
+The public financial verifier executes 375 controls covering statements, EPS, operating NWC, FCFF, WACC, DCF, EV-to-equity, comparables, and authority consistency. A separate independent recalculator does not import production calculation functions. End-to-end verification checks repository integrity and external-path independence. The archived dashboard audit recorded scenario isolation, read-only data access and no material mismatches for its tested release; this is not a claim of fresh browser verification on every subsequent commit.
 
 ## 24. Limitations
 

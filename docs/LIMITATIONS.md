@@ -53,3 +53,7 @@ The separate [R4.1 pro-forma analysis](../research_r4/EVIDENCE_AND_CLOSURE.md) i
 - The full issuer account taxonomy, deferred taxes, restricted cash and leases, financial-services separate balances, share schemes, goodwill adjustments, OCI and minority-interest changes are not projected at statutory disclosure detail. The result is a simplified *aggregate* three-statement model rather than a complete audited forecast.
 
 The original R3 and first R4 result vectors are retained as independent historical experimental versions. Values from R4.1 should be described as **conditional modeled valuations** and should never replace a sourced issuer market quotation or a fully confirmed valuation-date balance sheet.
+
+## Version and valuation-date reporting discipline
+
+R3 refers to the original 20 August 2026 information-cutoff experiment, notwithstanding its 11 September market reference. R4/R4.1 are **later research alternatives**, not retroactive repairs that make R3 historically contemporaneous. The R4.1 11 September balance-sheet figures are **modeled projections from reported June financials**, not issuer-reported balances. The modeled 2026 half-year cash-flow allocation fraction (**111/184**) is separate from the calendar-year valuation discount interval (**111/365**). The dates, economic assumptions and share populations differ across the three studies; their prices must not be treated as directly comparable predictive errors.
