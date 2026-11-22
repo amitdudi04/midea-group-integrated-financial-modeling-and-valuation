@@ -104,7 +104,7 @@ An additional **domestic-core-only** sensitivity produces **CNY 57.68 / 48.44 / 
 
 **Reverse DCF.** At the observed market price of CNY 86.26, the model's inverse calculation finds that a uniform FCFF scaling factor of approximately **24.96%** of the R3 base path would match the market-implied enterprise value under its held-fixed assumptions. The alternative **−10.36%** implied terminal-growth solution is a mathematical inversion—not a credible forecast of perpetual contraction or evidence that the market must be wrong.
 
-**Why they differ:** R3 DCF capitalizes optimistic long-run FCFF and a narrow WACC–growth spread; peer multiples reflect prices paid for other companies with different growth, capital structure, geography and accounting. Neither independently validates the other. Their divergence is **the central economic finding**, and more conservative assumptions materially reduce modeled value.
+**Why they differ:** R3 DCF capitalizes optimistic long-run FCFF and a narrow WACC–growth spread; peer multiples reflect prices paid for other companies with different growth, capital structure, geography and accounting. Neither independently validates the other. Their divergence is **the central economic finding**, rather than independent confirmation of either method, and more conservative assumptions materially reduce modeled value.
 
 Sources: [Comparable valuation inputs/outputs](model/H6_COMPS_VALUATION_R3.csv) · [Peer-universe sensitivity](workpapers/DOMESTIC_CORE_PEER_SENSITIVITY_R3_1.csv) · [Full interpretation](docs/RESULTS.md#13-why-dcf-and-comparable-companies-differ).
 
