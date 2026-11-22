@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   reconcile:
@@ -48,3 +49,8 @@ jobs:
           git diff --cached --quiet && { echo "No manifest change to publish"; exit 0; }
           git commit -m "release: bind current academic release files and verified financial artifacts"
           git push origin HEAD:main
+      - name: Dispatch full verify-model on manifest-bound main commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api -X POST "repos/${GITHUB_REPOSITORY}/actions/workflows/verify.yml/dispatches" -f ref=main
