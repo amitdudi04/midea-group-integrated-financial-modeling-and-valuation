@@ -116,9 +116,9 @@ The independently reproduced conditional equity values, using the sourced/estima
 
 | Scenario | Earlier R4 (R3 denominator) | R4.1 linked forecast (indicative pre-date share denominator) |
 |---|---:|---:|
-| Bear | CNY 37.73 | **CNY 29.66** |
-| Base | CNY 125.19 | **CNY 117.88** |
-| Bull | CNY 269.62 | **CNY 261.05** |
+| Bear | CNY 37.73 | **CNY 30.51** |
+| Base | CNY 125.19 | **CNY 120.08** |
+| Bull | CNY 269.62 | **CNY 265.13** |
 
 The changes do **not** imply that R4.1 is more likely to predict Midea’s share price. The calculations use **different operating cash-flow timing and financial-stock conventions**. R4.1 is an *aggregate model of financial statements*, not an issuer-certified full line-item projection.
 
