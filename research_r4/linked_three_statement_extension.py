@@ -15,6 +15,7 @@ OUT=Path(__file__).resolve().parent
 JUNE=date(2026,6,30); VALUE=date(2026,9,11); YEAR_END=date(2026,12,31)
 FRACTION_TO_VAL=(VALUE-JUNE).days/(YEAR_END-JUNE).days
 FRACTION_AFTER_VAL=(YEAR_END-VALUE).days/(YEAR_END-JUNE).days
+YEARS_AFTER_VAL=(YEAR_END-VALUE).days/365.0
 # June financials taken from issuer's 2026-08-28/29 interim CAS reporting.
 H1={
 "assets":643101.789,"liabilities":417308.848,"equity":225792.941,
@@ -61,7 +62,7 @@ OTHER_LIABS=H1["liabilities"]-(H1["gross_borrowings"]+NWC_LIABS+H1["customer_dep
 H1_EBIT=H1["operating_profit"]-H1["investment_income"]-H1["fair_value_gains"]-H1["finance_result"]
 assert abs(H1["assets"]-H1["liabilities"]-H1["equity"])<1e-5
 assert OTHER_ASSETS>0 and OTHER_LIABS>0 and FIN_LOANS>H1["customer_deposits"]
-assert 0 < FRACTION_AFTER_VAL < 1
+assert 0 < FRACTION_AFTER_VAL < 1 and 0 < YEARS_AFTER_VAL < 1
 
 DIVIDEND_RATIO=.25
 INTEREST_RATE=.02
@@ -153,12 +154,13 @@ def main():
     sep_debt=sep_state["debt"]
     sep_cash=sep_state["cash"]
     # 2026 H2 cash flow is forecast starting June 30; only the
-    # remaining 111/184 share is discounted after Sep 11.
+    # remaining 111/184 is the cash-flow fraction; the discount period
+    # is the distinct 111/365-year interval to December 31.
     val_cash=unlevered_fcff*FRACTION_AFTER_VAL
-    term=FRACTION_AFTER_VAL
+    term=YEARS_AFTER_VAL
    else:
     val_cash=unlevered_fcff
-    term=FRACTION_AFTER_VAL+(year-2026)
+    term=YEARS_AFTER_VAL+(year-2026)
    pv=val_cash/(1+par["wacc"])**term
    valuations.append(pv)
    vals={
@@ -183,6 +185,7 @@ def main():
      "R4_Original_FCFF_Same_Year":float(row["FCFF"]),
      "Discounted_FCFF_From_Sep11":pv,
      "Remainder_Of_2026_FCFF_Fraction":FRACTION_AFTER_VAL if year==2026 else 1,
+     "Years_From_Valuation_To_Cash_Flow":term,
      "Assumption_Status":"CONDITIONAL_AGGREGATED_3STATEMENT_NOT_COMPANY_GUIDANCE"
    }
    rolls.append(round_row(vals))
@@ -195,7 +198,7 @@ def main():
   fin30=float(r4[(case,2030)]["Finance_Services_Net_Investment"])
   fcff31=(ebit31*(1-TAX_RATE)+rev31*(par["da"]-par["capex"])-
           (wc31-wc30)-(fin31-fin30))
-  pvterminal=fcff31/(par["wacc"]-par["g"])/(1+par["wacc"])**(FRACTION_AFTER_VAL+4)
+  pvterminal=fcff31/(par["wacc"]-par["g"])/(1+par["wacc"])**(YEARS_AFTER_VAL+4)
   ev=sum(valuations)+pvterminal
   # Approximate Sep 11 financial asset/debt bridge with a modeled cash
   # trajectory, rather than passing off June accounting balances as Sep 11.
@@ -209,6 +212,7 @@ def main():
   date_values.append(round_row({
     "Scenario":case,"Date":"2026-09-11","Period_Basis":"June_2026_Financial_Actuals_Projected_To_Sept11",
     "PV_After_Date_FCFF":sum(valuations),
+    "Years_From_Valuation_To_2026_End":YEARS_AFTER_VAL,
     "Normalized_2031_FCFF":fcff31,"PV_Terminal_Value":pvterminal,
     "Enterprise_Value":ev,"Sep_11_Modeled_Cash":sep_cash,
     "Sep_11_Modeled_Debt":sep_debt,"June_Treasury_And_Deposits":H1_TREASURY,
