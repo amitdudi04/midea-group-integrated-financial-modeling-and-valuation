@@ -6,11 +6,6 @@
       "Bytes": 208
     },
     {
-      "Path": ".github/workflows/publish-corrected-r41-once.yml",
-      "SHA256": "df9e616533714685449adffe34550c37e848b6c382217d300891677f751293db",
-      "Bytes": 1980
-    },
-    {
       "Path": ".github/workflows/reconcile-release.yml",
       "SHA256": "b3b40ba466260b6ea3ca8aca76e11125ec81ab69a53c7068b504d527b91036c9",
       "Bytes": 2245
@@ -42,8 +37,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "d4f6e075d5fa621d4e7278b3ae891875f9671100953f62647941bb0eee2aeb4f",
-      "Bytes": 7828
+      "SHA256": "8147c058512e449d7197528c919909608aa99fb3f5361679a5166e0856dec6ae",
+      "Bytes": 7901
     },
     {
       "Path": "dashboard/app.py",
@@ -132,7 +127,7 @@
     },
     {
       "Path": "docs/RESULTS.md",
-      "SHA256": "c220a60990634107a68d9e70d69f195adbe2c814774566e891a360015ac531e8",
+      "SHA256": "3fdd3d60ecc0cd5e2b16de87584343c76f45e495a3d710cdd7c19085387c86ae",
       "Bytes": 25397
     },
     {
@@ -307,12 +302,12 @@
     },
     {
       "Path": "research_r4/EVIDENCE_AND_CLOSURE.md",
-      "SHA256": "cb691479f2bf55fde4990f33f70d42b1a296c95c73dc2035eef1f5c6c882fdc7",
-      "Bytes": 7660
+      "SHA256": "14bee9ef467cf0a022f12530dbcfc1674f7a0f5316a33cfdd95e0c7df5f30aec",
+      "Bytes": 7927
     },
     {
       "Path": "research_r4/README.md",
-      "SHA256": "3eac76fc55a765c3a2628ec86c0676253207616f0a490550ee648fe63db46d53",
+      "SHA256": "068f9995e01caf4e1b5e2be2390f54e0dcf8d6d507d32a634a08c371d29a9fdb",
       "Bytes": 14621
     },
     {
@@ -931,7 +926,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-22T07:02:05.850722+00:00",
+  "Generated_UTC": "2026-11-22T07:04:04.783900+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
