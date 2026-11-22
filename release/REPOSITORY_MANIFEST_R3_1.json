@@ -7,13 +7,13 @@
     },
     {
       "Path": ".github/workflows/reconcile-release.yml",
-      "SHA256": "b3b40ba466260b6ea3ca8aca76e11125ec81ab69a53c7068b504d527b91036c9",
-      "Bytes": 2245
+      "SHA256": "12d762214771575bda02ed934cb0327d67fd1aa1f6c6c5e98f9133ceada32587",
+      "Bytes": 2507
     },
     {
       "Path": ".github/workflows/verify.yml",
-      "SHA256": "5d709c8d98869af313f7cd58b61c29eda03da4d8911477e2025d7c97a04c262a",
-      "Bytes": 1092
+      "SHA256": "a2dd05708a7aaf478d650b29dc9174a8b369e63fab4b788a016fee05edc9c17a",
+      "Bytes": 1111
     },
     {
       "Path": ".gitignore",
@@ -37,8 +37,8 @@
     },
     {
       "Path": "README.md",
-      "SHA256": "8147c058512e449d7197528c919909608aa99fb3f5361679a5166e0856dec6ae",
-      "Bytes": 7901
+      "SHA256": "502b934b13b01cd8649253fce60fe28d3285a768998226e585794fbfb03478f6",
+      "Bytes": 6573
     },
     {
       "Path": "dashboard/app.py",
@@ -112,8 +112,8 @@
     },
     {
       "Path": "docs/LIMITATIONS.md",
-      "SHA256": "c3bf1bf6cfe9b72f8653418ce08ce3d02378e4aeeddebb9025e4d70ab97b1491",
-      "Bytes": 8271
+      "SHA256": "f9d49cef7927803f5cc8e5cf1d602f9c042c38d77fb6e4f312b5a46031f5af5a",
+      "Bytes": 9003
     },
     {
       "Path": "docs/METHODOLOGY.md",
@@ -127,8 +127,8 @@
     },
     {
       "Path": "docs/RESULTS.md",
-      "SHA256": "3fdd3d60ecc0cd5e2b16de87584343c76f45e495a3d710cdd7c19085387c86ae",
-      "Bytes": 25397
+      "SHA256": "f64a8b37e7c1681a8897cec7d8b4fb85d3b665ac89dfa6c4690a710c456cd063",
+      "Bytes": 25468
     },
     {
       "Path": "docs/assets/forecast_revenue_fcff_r3.svg",
@@ -926,7 +926,7 @@
       "Bytes": 1667
     }
   ],
-  "Generated_UTC": "2026-11-22T07:04:04.783900+00:00",
+  "Generated_UTC": "2026-11-22T07:21:03.569358+00:00",
   "Hash_Algorithm": "SHA256",
   "Path_Order": "UTF8_LEXICOGRAPHIC",
   "Schema": "REPOSITORY_MANIFEST_R3_1",
