@@ -2,6 +2,7 @@
 from __future__ import annotations
 import csv,math
 from pathlib import Path
+from datetime import date
 
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):
@@ -49,8 +50,19 @@ def main():
         row["Unlevered_FCFF"],label+" FCFF")
    assert float(row["Cash_End"])>=0 and float(row["PPE_End"])>=0
    assert abs(float(row["Balance_Sheet_Error"]))<2e-5
+   calendar_years=(date(2026,12,31)-date(2026,9,11)).days/365.0+(int(row["Period"][:4])-2026)
+   near(row["Years_From_Valuation_To_Cash_Flow"],calendar_years,label+" year-end discount time")
+   # Only 2026 H2 cash is prorated by the remaining share of June-Dec.
+   if row["Period"]=="2026_H2":
+    cash_fraction=(date(2026,12,31)-date(2026,9,11)).days/(date(2026,12,31)-date(2026,6,30)).days
+    near(row["Remainder_Of_2026_FCFF_Fraction"],cash_fraction,label+" cash allocation")
+    assert not math.isclose(calendar_years,cash_fraction,abs_tol=0.001)
+   else:
+    near(row["Remainder_Of_2026_FCFF_Fraction"],1,label+" full-year allocation")
   found=next(z for z in values if z["Scenario"]==case)
   pv=sum(float(r["Discounted_FCFF_From_Sep11"]) for r in group)
+  years=(date(2026,12,31)-date(2026,9,11)).days/365.0
+  near(found["Years_From_Valuation_To_2026_End"],years,case+" DCF horizon")
   near(found["PV_After_Date_FCFF"],pv,case+" discounted operating cash")
   near(found["Enterprise_Value"],pv+float(found["PV_Terminal_Value"]),case+" EV")
   bridge=(float(found["Excess_Cash_Model_Proxy"])+
